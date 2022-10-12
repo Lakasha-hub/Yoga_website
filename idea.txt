@@ -1,0 +1,4 @@
+armador de clases de yoga
+que te permita seleccionar los distintos elementos de una clase y se los coloque dentro de una plantilla llamada CLASE
+una vez seleccionado los distintos elementos que te permita guardar tu clase en tu biblioteca y clasificarla
+que la plantilla tenga la funcion de detectar si la clase esta compensada y si son acordes al beneficio o generar otras recomendaciones
