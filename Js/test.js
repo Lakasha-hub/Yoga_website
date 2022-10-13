@@ -1,5 +1,9 @@
 fetch("../assets/json/database.json")
     .then(res => res.json())
     .then(data => {
-        console.log(data.posturas)
+        
     })
+
+    let h1=document.getElementById(titulo)
+
+    h1.innerText=data.posturas[2].title

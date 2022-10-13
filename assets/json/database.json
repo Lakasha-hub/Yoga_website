@@ -1,5 +1,5 @@
 {
-    "posturas":[
+    "Posturas":[
         {
             "id":1,
             "sanskrit_name":"Navasana",
@@ -242,229 +242,274 @@
             "img_url":"https://www.dropbox.com/s/d1dbdvo4l7xry4w/downdogflip.svg?raw=1"
         }
     ],
-    "tecnicas":[
+    "Respiraciones":[
         {
+            "id": 49,
             "Tecnica": "Ujjayi",
             "Tipo": "Tamásica",
             "Descripcion": "",
             "Beneficios": ""
         },{
+            "id": 50,
             "Tecnica":"Nasagra",
             "Tipo": "Rajásica",
             "Descripcion": "",
             "Beneficios": ""
         },{
+            "id": 51,
             "Tecnica":"Completa",
             "Tipo": "Sáttvica",
             "Descripcion": "",
             "Beneficios": ""
         },{
+            "id": 52,
             "Tecnica":"Abdominal",
             "Tipo": "Tamásica",
             "Descripcion": "",
             "Beneficios": ""
         },{
+            "id": 53,
             "Tecnica":"Torácica",
             "Tipo": "Sáttvica",
             "Descripcion": "",
             "Beneficios": ""
         },{
+            "id": 54,
             "Tecnica":"Clavicular",
             "Tipo": "Rajásica",
             "Descripcion": "",
             "Beneficios": ""
         },{
+            "id": 55,
             "Tecnica":"Completa(Tamásica)",
             "Tipo": "Rajásica",
             "Descripcion": "",
             "Beneficios": ""
         },{
+            "id": 56,
             "Tecnica":"Completa(Rajásica)",
             "Tipo": "Rajásica",
             "Descripcion": "",
             "Beneficios": ""
         },{
+            "id": 57,
             "Tecnica":"Completa(Sáttvica)",
             "Tipo": "Sáttvica",
             "Descripcion": "",
             "Beneficios": ""
         },{
+            "id": 58,
             "Tecnica":"Bastrika",
             "Tipo": "Rajásica",
             "Descripcion": "",
             "Beneficios": ""
         },{
+            "id": 59,
             "Tecnica":"Kaphalabhati",
             "Tipo": "Rajásica",
             "Descripcion": "",
             "Beneficios": ""
         },{
+            "id": 60,
             "Tecnica":"Surya Bhedhana",
             "Tipo": "Rajásica",
             "Descripcion": "",
             "Beneficios": ""
         },{
+            "id": 61,
             "Tecnica":"Chandra Bhedhana",
             "Tipo": "Tamásica",
             "Descripcion": "",
             "Beneficios": ""
         },{
+            "id": 62,
             "Tecnica":"Nadi Sodhana",
             "Tipo": "Sáttvica",
             "Descripcion": "",
             "Beneficios": ""
         },{
+            "id": 63,
             "Tecnica":"Samavitri",
             "Tipo": "Sáttvica",
             "Descripcion": "",
             "Beneficios": ""
         },{
+            "id": 64,
             "Tecnica":"Fraccionada(Inhalación)",
             "Tipo": "Rajásica",
             "Descripcion": "",
             "Beneficios": ""
         },{
+            "id": 65,
             "Tecnica":"Fraccionada(Exhalación)",
             "Tipo": "Tamásica",
             "Descripcion": "",
             "Beneficios": ""
         },{
+            "id": 66,
             "Tecnica":"Fraccionada(Inhalación y Exhalación)",
             "Tipo": "Sáttvica",
             "Descripcion": "",
             "Beneficios": ""
         },{
+            "id": 67,
             "Tecnica":"Jadeo",
             "Tipo": "Rajásica",
             "Descripcion": "",
             "Beneficios": ""
         },{
+            "id": 68,
             "Tecnica":"Silbar",
             "Tipo": "Tamásica",
             "Descripcion": "",
             "Beneficios": ""
         },{
+            "id": 69,
             "Tecnica":"Bostezo",
             "Tipo": "Tamásica",
             "Descripcion": "",
             "Beneficios": ""
         },{
+            "id": 70,
             "Tecnica":"Limpieza",
             "Tipo": "Tamásica",
             "Descripcion": "",
             "Beneficios": ""
         },{
+            "id": 71,
             "Tecnica":"Inhalación Alargada",
             "Tipo": "Rajásica",
             "Descripcion": "",
             "Beneficios": ""
         },{
+            "id": 72,
             "Tecnica":"Exhalación Alargada",
             "Tipo": "Tamásica",
             "Descripcion": "",
             "Beneficios": ""
         },{
+            "id": 73,
             "Tecnica":"Circular",
             "Tipo": "Sáttvica",
             "Descripcion": "",
             "Beneficios": ""
-        },{
+        }
+    ],
+    "Mudras":[
+        {
+            "id": 74,
             "Mudra": "Pronam",
             "Tipo": "Hasta Mudra",
             "Descripcion":"",
             "beneficios": "",
             "url": "../img/mudras/Pronam_mudra.png"
         },{
+            "id": 75,
             "Mudra": "Trimurti",
             "Tipo": "Hasta Mudra",
             "Descripcion":"",
             "beneficios": "",
             "url": "../img/mudras/Trimurti_mudra.png"
         },{
+            "id": 76,
             "Mudra": "Chin",
             "Tipo": "Hasta Mudra",
             "Descripcion":"",
             "beneficios": "",
             "url": ""
         },{
+            "id": 77,
             "Mudra": "Uttarabodhi",
             "Tipo": "Hasta Mudra",
             "Descripcion":"",
             "beneficios": "",
             "url": "../img/mudras/Uttarabodhi_mudra.png"
         },{
+            "id": 78,
             "Mudra": "Chinmaya",
             "Tipo": "Hasta Mudra",
             "Descripcion":"",
             "beneficios": "",
             "url": "../img/mudras/Chinmaya_mudra.jpg"
         },{
+            "id": 79,
             "Mudra": "Brahma",
             "Tipo": "Hasta Mudra",
             "Descripcion":"",
             "beneficios": "",
             "url": ""
         },{
+            "id": 80,
             "Mudra": "Adhi",
             "Tipo": "Hasta Mudra",
             "Descripcion":"",
             "beneficios": "",
             "url": "../img/mudras/Adhi_mudra.png"
         },{
+            "id": 81,
             "Mudra": "Govinda",
             "Tipo": "Hasta Mudra",
             "Descripcion":"",
             "beneficios": "",
             "url": "../img/mudras/Govinda_mudra.png"
         },{
+            "id": 82,
             "Mudra": "Padma",
             "Tipo": "Hasta Mudra",
             "Descripcion":"",
             "beneficios": "",
             "url": "../img/mudras/Padma.png"
         },{
+            "id": 83,
             "Mudra": "Vishnu",
             "Tipo": "Hasta Mudra",
             "Descripcion":"",
             "beneficios": "",
             "url": "../img/mudras/Nasagra_Vishnu_mudra.png"
         },{
+            "id": 84,
             "Mudra": "Nasagra",
             "Tipo": "Hasta Mudra",
             "Descripcion":"",
             "beneficios": "",
             "url": "../img/mudras/Nasagra_Vishnu_mudra.png"
         },{
+            "id": 85,
             "Mudra": "Dhyani",
             "Tipo": "Hasta Mudra",
             "Descripcion":"",
             "beneficios": "",
             "url": "../img/mudras/dhyani_mudra.png"
         },{
+            "id": 86,
             "Mudra": "Prithivi",
             "Tipo": "Hasta Mudra",
             "Descripcion":"",
             "beneficios": "",
             "url": "../img/mudras/Prithivi_mudra.png"
         },{
+            "id": 87,
             "Mudra": "Apas",
             "Tipo": "Hasta Mudra",
             "Descripcion":"",
             "beneficios": "",
             "url": "../img/mudras/Apas_mudra.png"
         },{
+            "id": 88,
             "Mudra": "Agni",
             "Tipo": "Hasta Mudra",
             "Descripcion":"",
             "beneficios": "",
             "url": "../img/mudras/Agni_mudra.png"
         },{
+            "id": 89,
             "Mudra": "Vayu",
             "Tipo": "Hasta Mudra",
             "Descripcion":"",
             "beneficios": "",
             "url": "../img/mudras/Vayu_mudra.png"
         },{
+            "id": 90,
             "Mudra": "Akasha",
             "Tipo": "Hasta Mudra",
             "Descripcion":"",

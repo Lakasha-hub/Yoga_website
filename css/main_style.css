@@ -1,0 +1,198 @@
+/* Estilos de Navegación */
+.nav-main{
+    font-size: 17px;
+    display: flex; /* Organiza los elementos uno al lado de otro */
+    justify-content: space-between; /* Utiliza todo el Ancho de la página (90%) */
+    align-items: center; /* Centrado */
+    height: 60px; /* Alto de barra de navegación */
+    padding: 20px 0; /* Ancho de barra de navegación */
+}
+.nav-brand{
+    width: 60px;
+}
+
+/* Navegación Izquierda */
+.nav-main ul{
+    display: flex; /* Organiza los elementos uno al lado de otro */
+}
+.nav-main ul li{
+    padding: 10px; 
+}
+/* Pseudo-clase hover aplica el efecto solamente cuando el usuario pasa el cursor por encima del elemento */
+.nav-main ul li a:hover{
+    border-bottom: 2px solid #000000;
+}
+.nav-main ul.nav-menu{
+    flex: 1;
+    margin-left: 20px; /* Espaciado izquierdo contra el brand */
+    color:#000000;
+}
+.menu-btn{
+    position: absolute;
+    cursor: pointer;
+    top: 15px;
+    right: 30px;
+    z-index: 2;
+    display: none;
+}
+
+/* Showcase */
+hr{
+    margin-top: 10px; /* Margen de 10px arriba */
+    margin-bottom: 15px; /* Margen de 10 px abajo*/
+}
+.showcase{
+    width: 100%; /* Que ocupe el 100% de la página */
+    height: 550px; /* Altura del bloque*/
+    background: url(../assets/img/showcase3.jpg) no-repeat center center/cover; /* Importar img y centrado ocupando todo el espacio*/
+    padding : 50px; /* Espaciado abajo de la imagen */
+    display: flex; /* Cambia estructura del bloque a tipo flex*/
+    flex-direction: column; /* Ubica el los elementos en una columna */
+    align-items: center; /* Centrado de elementos */
+    justify-content: flex-end; /* Se ubica debajo del bloque */
+    margin-bottom: 20px; /* Espaciado abajo de la imagen */
+    color: #ffffff;
+}
+.showcase a{
+    color: #ffffff;
+}
+.showcase h2,
+.showcase p{
+    margin-bottom: 10px; /* Espaciado abajo del titulo y del parrafo */
+}
+.btn{
+    margin:10px 20px; 
+
+}
+.showcase a:hover{
+    color: #ff9a04; /* color naranja al pasar sobre boton*/
+    border-bottom: 2px solid #ff9a04; /* Subrayado naranja al pasar sobre cursor */
+}
+
+/* Carruseles */
+.carrusel{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+}
+.carrusel img{
+    height: 180px;
+}
+
+.carrusel h3{
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.carrusel a{
+    padding: 10px 0;
+    color: #000000;
+    text-transform: uppercase;
+    display: inline-block;
+    font-weight: bolder;
+}
+
+.carrusel a:hover{
+    text-decoration: underline;
+}
+
+/* Social */
+.social{
+    margin: 50px;
+}
+.social p{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.links a{
+    margin: 0 30px;
+}
+.links a i{
+    font-size: 3rem;
+}
+
+/* Links footer */
+.footer-links{
+    background-color: #5a5c5e;
+    color: #ffffff;
+    font-size: 12px;
+    padding: 35px;  
+}
+.footer-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: center;
+}
+.footer-container ul{
+    margin: 0 auto;
+}
+.footer-container ul li{
+    line-height: 2.8;
+}
+.footer{
+    background-color: #5a5c5e;
+    color: #ffffff;
+    font-size: 12px;
+    padding: 20px 0;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+@media (max-width: 700px) {
+    .menu-btn{
+        display: block;
+    }
+    .nav-main ul.nav-menu{
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: #5a5c5e;
+        height: 100%;
+        padding: 30px;
+        opacity: .9;
+        transform: translateX(-400px);
+        transition: transform .5s ease-in-out;
+    }
+    .nav-main ul.nav-menu li{
+        padding: 20px;
+        font-size: 14px;
+    }
+    .nav-main ul.nav-menu.show{
+        transform: translateX(-20px);
+    }
+    .nav-main ul.nav-menu-right{
+        margin-right: 50px;
+    }
+
+
+    .carrusel{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .footer-links .footer-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 500px){
+
+
+    .carrusel{
+        grid-template-columns: 1fr;
+    }
+    .carrusel img{
+        height: 270px;
+    }
+    .footer-links .footer-container{
+        grid-template-columns: 1fr;
+    }
+
+}

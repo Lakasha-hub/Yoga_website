@@ -4,9 +4,3 @@ document.querySelector('.menu-btn').addEventListener('click', () => {
 
 ScrollReveal().reveal('.showcase');
 ScrollReveal().reveal('.carrusel', { delay: 500});
-
-document.querySelector('#clase').addEventListener('click', (event)=>{
-    event.preventDefault();
-    
-});
-
