@@ -1,9 +1,172 @@
-fetch("../assets/json/database.json")
-    .then(res => res.json())
-    .then(data => {
-        
-    })
+/**
+ * Este programa es una prueba del funcionamiento real de la 
+ * pagina con arrays de objetos en vez de la base de datos en 
+ * formato Json.
+ */
 
-    let h1=document.getElementById(titulo)
+//Posturas 
+let posturas = [{
+    nombre:"Boat",
+    img_url:"https://www.dropbox.com/s/4m64ztxkj8a4dab/boatstraightlegs.svg?raw=1",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis animi sapiente inventore aspernatur quae autem laborum nemo, aut magni fugit, commodi ullam molestias nisi praesentium optio accusamus voluptatum atque!"
+},{
+    nombre:"Half-Boat",
+    img_url:"https://www.dropbox.com/s/1nx0r94msxjwvyp/boatbentlegs.svg?raw=1",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis animi sapiente inventore aspernatur quae autem laborum nemo, aut magni fugit, commodi ullam molestias nisi praesentium optio accusamus voluptatum atque!"
+},{
+    nombre:"Bow",
+    img_url:"https://www.dropbox.com/s/wizj5kwxvez4c0a/bow.svg?raw=1",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis animi sapiente inventore aspernatur quae autem laborum nemo, aut magni fugit, commodi ullam molestias nisi praesentium optio accusamus voluptatum atque!"
+},{
+    nombre:"Bridge",
+    img_url:"https://www.dropbox.com/s/f1w64ybg4sn8ejt/bridge.svg?raw=1",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis animi sapiente inventore aspernatur quae autem laborum nemo, aut magni fugit, commodi ullam molestias nisi praesentium optio accusamus voluptatum atque!"
+},{
+    nombre:"Butterfly",
+    img_url:"https://www.dropbox.com/s/3h2pts6xbn28dh7/butterfly%3F.svg?raw=1",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis animi sapiente inventore aspernatur quae autem laborum nemo, aut magni fugit, commodi ullam molestias nisi praesentium optio accusamus voluptatum atque!"
+}];
 
-    h1.innerText=data.posturas[2].title
+//Respiraciones con distintos efectos
+let respiraciones = [{
+    nombre: "Ujjayi",
+    Tipo: "Relajante",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis animi sapiente inventore aspernatur quae autem laborum nemo, aut magni fugit, commodi ullam molestias nisi praesentium optio accusamus voluptatum atque!"
+},{
+    nombre:"Nasagra",
+    Tipo: "Activante",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis animi sapiente inventore aspernatur quae autem laborum nemo, aut magni fugit, commodi ullam molestias nisi praesentium optio accusamus voluptatum atque!"
+},{
+    nombre:"Completa",
+    Tipo: "Equilibrante",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis animi sapiente inventore aspernatur quae autem laborum nemo, aut magni fugit, commodi ullam molestias nisi praesentium optio accusamus voluptatum atque!"
+},{
+    nombre:"Abdominal",
+    Tipo: "Relajante",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis animi sapiente inventore aspernatur quae autem laborum nemo, aut magni fugit, commodi ullam molestias nisi praesentium optio accusamus voluptatum atque!"
+},{
+    nombre:"Toracica",
+    Tipo: "Equilibrante",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis animi sapiente inventore aspernatur quae autem laborum nemo, aut magni fugit, commodi ullam molestias nisi praesentium optio accusamus voluptatum atque!"
+},{
+    nombre:"Clavicular",
+    Tipo: "Activante",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis animi sapiente inventore aspernatur quae autem laborum nemo, aut magni fugit, commodi ullam molestias nisi praesentium optio accusamus voluptatum atque!"
+}];
+
+//Gestos con manos
+let mudras =[{
+    nombre:"Pronam",
+    img_url: "/assets/img/mudras/Pronam_mudra.png",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis animi sapiente inventore aspernatur quae autem laborum nemo, aut magni fugit, commodi ullam molestias nisi praesentium optio accusamus voluptatum atque!"
+},{
+    nombre:"Adhi",
+    img_url: "/assets/img/mudras/Adhi_mudra.png",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis animi sapiente inventore aspernatur quae autem laborum nemo, aut magni fugit, commodi ullam molestias nisi praesentium optio accusamus voluptatum atque!"
+},{
+    nombre:"Govinda",
+    img_url: "/assets/img/mudras/Govinda_mudra.png",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis animi sapiente inventore aspernatur quae autem laborum nemo, aut magni fugit, commodi ullam molestias nisi praesentium optio accusamus voluptatum atque!"
+},{
+    nombre:"Apas",
+    img_url: "/assets/img/mudras/Apas_mudra.png",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis animi sapiente inventore aspernatur quae autem laborum nemo, aut magni fugit, commodi ullam molestias nisi praesentium optio accusamus voluptatum atque!"
+},{
+    nombre:"Vayu",
+    img_url: "/assets/img/mudras/Vayu_mudra.png",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis animi sapiente inventore aspernatur quae autem laborum nemo, aut magni fugit, commodi ullam molestias nisi praesentium optio accusamus voluptatum atque!"
+}];
+
+//Desplegar Menu de Opciones
+document.querySelector('.dropdown').addEventListener('click', () =>{
+    document.querySelector('.dropdown').classList.toggle('active');
+});
+
+//Selección del usuario en menu
+function show(selection){
+    document.querySelector('.textbox').value = selection;
+}
+
+//Elegir Opciones
+document.querySelector('#btn_posturas').addEventListener('click', () =>{
+    document.querySelector('#posturas').classList.toggle('active');
+    console.log('mostrar posturas');
+});
+document.querySelector('#btn_respiraciones').addEventListener('click', () =>{
+    document.querySelector('#respiraciones').classList.toggle('active');
+    console.log('mostrar respiraciones');
+});
+document.querySelector('#btn_mudras').addEventListener('click', () =>{
+    document.querySelector('#mudras').classList.toggle('active');
+    console.log('mostrar mudras')
+});
+
+
+function displayDataOptions(database){
+    //Create Containers
+    let dropdown2 = document.createElement('div');
+    dropdown2.classList.add('dropdown2');
+    document.body.appendChild(dropdown2);
+
+    let option2 = document.createElement('div');
+    option2.classList.add('option2');
+    dropdown2.appendChild(option2);
+
+    //Create option for each element
+    for(let element of database){
+        if(database == posturas){
+            let select = document.createElement('div');
+            select.innerHTML = `${element['nombre']}`;
+            dropdown2.setAttribute("id", "posturas");
+            option2.appendChild(select);
+        }else if(database == mudras){
+            let select = document.createElement('div');
+            select.innerHTML = `${element['nombre']}`;
+            dropdown2.setAttribute("id", "mudras");
+            option2.appendChild(select);
+        }else{
+            let select = document.createElement('div');
+            select.innerHTML = `${element['nombre']}`;
+            dropdown2.setAttribute("id", "respiraciones");
+            option2.appendChild(select);
+        }
+    }
+    
+}
+
+function displayCards(database){
+    //Create Containers
+    let body_cards = document.createElement('div');
+    body_cards.classList.add('body_cards');
+    document.body.appendChild(body_cards);
+
+    let container_card = document.createElement('div');
+    container_card.classList.add('container_card');
+    body_cards.appendChild(container_card);
+
+    let card = document.createElement('div');
+    card.classList.add('card');
+    container_card.appendChild(card);
+
+    let info_description = document.createElement('div');
+    info_description.classList.add('info_description');
+    card.appendChild(info_description);
+
+    //Create img and desc for each element
+    for(let element of database){
+        let img_card = document.createElement('div');
+        img_card.classList.add('img_card');
+        img_card.innerHTML = `<img src="${element['img_url']}" alt="img">`;
+        card.appendChild(img_card);
+
+        let info_description = document.createElement('div');
+        info_description.classList.add('info_description');
+        info_description.innerHTML = `<p>${element['desc']}<p>`;
+        card.appendChild(info_description);
+    }
+}
+displayDataOptions(posturas);
+displayDataOptions(respiraciones);
+displayDataOptions(mudras);
+displayCards(mudras);
+displayCards(posturas);

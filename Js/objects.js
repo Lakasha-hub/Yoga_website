@@ -1,17 +1,16 @@
-class clase {
+class user_class {
     /**
      * 
      * @param {Object} respiraciones 
      * @param {Object} mudras 
-     * @param {Object} kriyas 
-     * @param {Object} asanas 
+     * @param {Object} posturas
      */
 
-    constructor(respiraciones, mudras, kriyas, asanas){
+    constructor(respiraciones, mudras, posturas){
         this.respiraciones = respiraciones;
         this.mudras = mudras;
-        this.kriyas = kriyas;
-        this.asanas = asanas;
+        this.kriyas = posturas;
     }
+    
 }
 
