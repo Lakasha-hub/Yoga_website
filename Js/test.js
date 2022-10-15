@@ -89,18 +89,20 @@ function show(selection){
 
 //Elegir Opciones
 document.querySelector('#btn_posturas').addEventListener('click', () =>{
+    displayDataOptions(posturas);
     document.querySelector('#posturas').classList.toggle('active');
     console.log('mostrar posturas');
 });
 document.querySelector('#btn_respiraciones').addEventListener('click', () =>{
+    displayDataOptions(respiraciones);
     document.querySelector('#respiraciones').classList.toggle('active');
     console.log('mostrar respiraciones');
 });
 document.querySelector('#btn_mudras').addEventListener('click', () =>{
+    displayDataOptions(mudras);
     document.querySelector('#mudras').classList.toggle('active');
-    console.log('mostrar mudras')
+    console.log('mostrar mudras');
 });
-
 
 function displayDataOptions(database){
     //Create Containers
@@ -111,24 +113,30 @@ function displayDataOptions(database){
     let option2 = document.createElement('div');
     option2.classList.add('option2');
     dropdown2.appendChild(option2);
-
+    let num = 1;
     //Create option for each element
     for(let element of database){
         if(database == posturas){
             let select = document.createElement('div');
             select.innerHTML = `${element['nombre']}`;
+            select.setAttribute("id", "selection" + num)
             dropdown2.setAttribute("id", "posturas");
             option2.appendChild(select);
+            num = num + 1;
         }else if(database == mudras){
             let select = document.createElement('div');
             select.innerHTML = `${element['nombre']}`;
+            select.setAttribute("id", "selection" + num)
             dropdown2.setAttribute("id", "mudras");
             option2.appendChild(select);
+            num = num + 1;
         }else{
             let select = document.createElement('div');
             select.innerHTML = `${element['nombre']}`;
+            select.setAttribute("id", "selection" + num)
             dropdown2.setAttribute("id", "respiraciones");
             option2.appendChild(select);
+            num = num + 1;
         }
     }
     
@@ -165,8 +173,3 @@ function displayCards(database){
         card.appendChild(info_description);
     }
 }
-displayDataOptions(posturas);
-displayDataOptions(respiraciones);
-displayDataOptions(mudras);
-displayCards(mudras);
-displayCards(posturas);
