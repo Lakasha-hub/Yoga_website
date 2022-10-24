@@ -186,38 +186,43 @@ function show(selection){
 
 //Function to display Menu Options of database
 function displayDataOptions(database){
+
+    let container_card = document.querySelector('.container_card');
     //Create Containers
     let dropdown2 = document.createElement('div');
     dropdown2.classList.add('dropdown2');
-    document.body.appendChild(dropdown2);
+    container_card.appendChild(dropdown2);
 
     let option2 = document.createElement('div');
     option2.classList.add('option2');
     dropdown2.appendChild(option2);
-    let num = 1;
     //Create options for each element
     for(let element of database){
         if(database == posturas){
             let select = document.createElement('div');
             select.innerHTML = `${element['nombre']}`;
-            select.setAttribute("id", "selection" + num)
+            select.setAttribute("class", "selection")
             dropdown2.setAttribute("id", "posturas");
             option2.appendChild(select);
-            num = num + 1;
+            let content = select.innerHTML;
+            select.addEventListener('click', () =>{displayElementsClass(content)});
+            
         }else if(database == mudras){
             let select = document.createElement('div');
             select.innerHTML = `${element['nombre']}`;
-            select.setAttribute("id", "selection" + num)
+            select.setAttribute("class", "selection")
             dropdown2.setAttribute("id", "mudras");
             option2.appendChild(select);
-            num = num + 1;
+            let content = select.innerHTML;
+            select.addEventListener('click', () =>{displayElementsClass(content)});
         }else{
             let select = document.createElement('div');
             select.innerHTML = `${element['nombre']}`;
-            select.setAttribute("id", "selection" + num)
+            select.setAttribute("id", "selection")
             dropdown2.setAttribute("id", "respiraciones");
             option2.appendChild(select);
-            num = num + 1;
+            let content = select.innerHTML;
+            select.addEventListener('click', () =>{displayElementsClass(content)});
         }
     }
     
@@ -257,8 +262,18 @@ function displayCards(database){
 }
 
 //Function to Display selections in a list
-function displayElementsClass(){
-    let list = document.querySelector('.elements');
-    let element = document.createElement('li');
-
+function displayElementsClass(content){
+    let ul = document.querySelector('.elements');
+    let exists_element = document.querySelector('.list') || null;
+    let num = 1;
+    if(exists_element == null){
+        ul.innerHTML = `<li class='list'><span>${num}</span>${content}</li>`
+    }else{
+        let li =document.createElement('li');
+        li.innerHTML = `<span>${num}</span>${content}`
+        li.setAttribute('class', 'list')
+        ul.appendChild(li);
+    }
+    
+    
 }

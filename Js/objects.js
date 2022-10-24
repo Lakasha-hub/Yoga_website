@@ -13,4 +13,3 @@ class user_class {
     }
     
 }
-
