@@ -77,33 +77,114 @@ let mudras =[{
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis animi sapiente inventore aspernatur quae autem laborum nemo, aut magni fugit, commodi ullam molestias nisi praesentium optio accusamus voluptatum atque!"
 }];
 
-//Desplegar Menu de Opciones
+/**Options -- Menu*/
+
+//Display Menu Selections 
 document.querySelector('.dropdown').addEventListener('click', () =>{
     document.querySelector('.dropdown').classList.toggle('active');
 });
 
-//Selección del usuario en menu
+//Display Menu of Posturas
+document.querySelector('#btn_posturas').addEventListener('click', () =>{
+    let exists = document.querySelector('.dropdown2') || null;
+    if(exists == null){
+        displayDataOptions(posturas);
+        document.querySelector('#posturas').classList.toggle('active');
+        console.log('mostrar posturas');
+
+        Toastify({
+            text: "Elegiste las Posturas",
+            className: "info",
+            style: {
+                background: "linear-gradient(to right, #000000, #ff9a04)",
+            }
+        }).showToast();
+    }else{
+        exists.remove();
+        displayDataOptions(posturas);
+        document.querySelector('#posturas').classList.toggle('active');
+        console.log('mostrar posturas');
+
+        Toastify({
+            text: "Elegiste las Posturas",
+            className: "info",
+            style: {
+                background: "linear-gradient(to right, #000000, #ff9a04)",
+            }
+        }).showToast();
+
+    }
+});
+
+//Display Menu of Respiraciones
+document.querySelector('#btn_respiraciones').addEventListener('click', () =>{
+    let exists = document.querySelector('.dropdown2') || null;
+    if(exists == null){
+        displayDataOptions(respiraciones);
+        document.querySelector('#respiraciones').classList.toggle('active');
+        console.log('mostrar respiraciones');
+
+        Toastify({
+            text: "Elegiste las Tecnicas Respiratorias",
+            className: "info",
+            style: {
+            background: "linear-gradient(to right, #000000, #ff9a04)",
+            }
+        }).showToast();
+    }else{
+        exists.remove();
+        displayDataOptions(respiraciones);
+        document.querySelector('#respiraciones').classList.toggle('active');
+        console.log('mostrar respiraciones');
+
+        Toastify({
+            text: "Elegiste las Tecnicas Respiratorias",
+            className: "info",
+            style: {
+                background: "linear-gradient(to right, #000000, #ff9a04)",
+            }
+        }).showToast();
+    }
+});
+
+//Display Menu of Mudras
+document.querySelector('#btn_mudras').addEventListener('click', () =>{
+
+    let exists = document.querySelector('.dropdown2') || null;
+    if(exists == null){
+        displayDataOptions(mudras);
+        document.querySelector('#mudras').classList.toggle('active');
+        console.log('mostrar mudras');
+
+        Toastify({
+            text: "Elegiste los Mudras",
+            className: "info",
+            style: {
+                background: "linear-gradient(to right, #000000, #ff9a04)",
+            }
+        }).showToast();
+    }else{
+        exists.remove();
+        displayDataOptions(mudras);
+        document.querySelector('#mudras').classList.toggle('active');
+        console.log('mostrar mudras');
+
+        Toastify({
+            text: "Elegiste los Mudras",
+            className: "info",
+            style: {
+                background: "linear-gradient(to right, #000000, #ff9a04)",
+            }
+        }).showToast();
+    }
+});
+
+//Add Selection to input value
 function show(selection){
     document.querySelector('.textbox').value = selection;
 }
 
-//Elegir Opciones
-document.querySelector('#btn_posturas').addEventListener('click', () =>{
-    displayDataOptions(posturas);
-    document.querySelector('#posturas').classList.toggle('active');
-    console.log('mostrar posturas');
-});
-document.querySelector('#btn_respiraciones').addEventListener('click', () =>{
-    displayDataOptions(respiraciones);
-    document.querySelector('#respiraciones').classList.toggle('active');
-    console.log('mostrar respiraciones');
-});
-document.querySelector('#btn_mudras').addEventListener('click', () =>{
-    displayDataOptions(mudras);
-    document.querySelector('#mudras').classList.toggle('active');
-    console.log('mostrar mudras');
-});
-
+//Function to display Menu Options of database
 function displayDataOptions(database){
     //Create Containers
     let dropdown2 = document.createElement('div');
@@ -114,7 +195,7 @@ function displayDataOptions(database){
     option2.classList.add('option2');
     dropdown2.appendChild(option2);
     let num = 1;
-    //Create option for each element
+    //Create options for each element
     for(let element of database){
         if(database == posturas){
             let select = document.createElement('div');
@@ -142,6 +223,7 @@ function displayDataOptions(database){
     
 }
 
+//Function to Display Cards of Database
 function displayCards(database){
     //Create Containers
     let body_cards = document.createElement('div');
@@ -172,4 +254,11 @@ function displayCards(database){
         info_description.innerHTML = `<p>${element['desc']}<p>`;
         card.appendChild(info_description);
     }
+}
+
+//Function to Display selections in a list
+function displayElementsClass(){
+    let list = document.querySelector('.elements');
+    let element = document.createElement('li');
+
 }
