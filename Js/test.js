@@ -77,6 +77,9 @@ let mudras =[{
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis animi sapiente inventore aspernatur quae autem laborum nemo, aut magni fugit, commodi ullam molestias nisi praesentium optio accusamus voluptatum atque!"
 }];
 
+/**Global Variables */
+var num_list = 1; //save the number of item list
+
 /**Options -- Menu*/
 
 //Display Menu Selections 
@@ -201,20 +204,27 @@ function displayDataOptions(database){
         if(database == posturas){
             let select = document.createElement('div');
             select.innerHTML = `${element['nombre']}`;
-            select.setAttribute("class", "selection")
+            select.setAttribute("id", "selection")
             dropdown2.setAttribute("id", "posturas");
             option2.appendChild(select);
             let content = select.innerHTML;
-            select.addEventListener('click', () =>{displayElementsClass(content)});
-            
+            select.addEventListener('click', () =>{
+                document.querySelector('.card').classList.add('active');
+                displayCards(database, content);
+                displayElementsClass(content)
+            });
         }else if(database == mudras){
             let select = document.createElement('div');
             select.innerHTML = `${element['nombre']}`;
-            select.setAttribute("class", "selection")
+            select.setAttribute("id", "selection")
             dropdown2.setAttribute("id", "mudras");
             option2.appendChild(select);
             let content = select.innerHTML;
-            select.addEventListener('click', () =>{displayElementsClass(content)});
+            select.addEventListener('click', () =>{
+                document.querySelector('.card').classList.add('active');
+                displayCards(database, content);
+                displayElementsClass(content)
+            });
         }else{
             let select = document.createElement('div');
             select.innerHTML = `${element['nombre']}`;
@@ -222,58 +232,72 @@ function displayDataOptions(database){
             dropdown2.setAttribute("id", "respiraciones");
             option2.appendChild(select);
             let content = select.innerHTML;
-            select.addEventListener('click', () =>{displayElementsClass(content)});
+            select.addEventListener('click', () =>{
+                document.querySelector('.card').classList.add('active');
+                displayCards(database, content);
+                displayElementsClass(content)
+            });
         }
     }
     
 }
 
-//Function to Display Cards of Database
-function displayCards(database){
-    //Create Containers
-    let body_cards = document.createElement('div');
-    body_cards.classList.add('body_cards');
-    document.body.appendChild(body_cards);
+//Function to Display Cards of Content
+function displayCards(database, name_object){
+    //Get Containers
+    let info_description = document.querySelector('.info_description');
+    let img_card = document.querySelector('.img_card');
+    let exists_img = document.querySelector('#img') || null;
+    let exists_desc = document.querySelector('#desc')||null;
 
-    let container_card = document.createElement('div');
-    container_card.classList.add('container_card');
-    body_cards.appendChild(container_card);
-
-    let card = document.createElement('div');
-    card.classList.add('card');
-    container_card.appendChild(card);
-
-    let info_description = document.createElement('div');
-    info_description.classList.add('info_description');
-    card.appendChild(info_description);
-
+    let {img_url, desc} = database.find(element => {
+        if(element.nombre == name_object){
+            return element;
+        }
+    })
     //Create img and desc for each element
-    for(let element of database){
-        let img_card = document.createElement('div');
-        img_card.classList.add('img_card');
-        img_card.innerHTML = `<img src="${element['img_url']}" alt="img">`;
-        card.appendChild(img_card);
-
-        let info_description = document.createElement('div');
-        info_description.classList.add('info_description');
-        info_description.innerHTML = `<p>${element['desc']}<p>`;
-        card.appendChild(info_description);
+    if(exists_img == null || exists_desc == null){
+        img_card.innerHTML = `<img src="${img_url}" alt="img" id = 'img'>`;
+        info_description.innerHTML = `<p id = 'desc'>${desc}<p>`;
+    }else{
+        exists_desc.remove();
+        exists_img.remove();
+        console.log(img_card.innerHTML)
+        img_card.innerHTML = `<img id = 'img' src="${img_url}" alt="img">`;
+        info_description.innerHTML = `<p id = 'desc'>${desc}<p>`;
     }
 }
 
 //Function to Display selections in a list
 function displayElementsClass(content){
     let ul = document.querySelector('.elements');
+
+    //Determine if elements exists
     let exists_element = document.querySelector('.list') || null;
-    let num = 1;
     if(exists_element == null){
-        ul.innerHTML = `<li class='list'><span>${num}</span>${content}</li>`
-    }else{
         let li =document.createElement('li');
-        li.innerHTML = `<span>${num}</span>${content}`
-        li.setAttribute('class', 'list')
+        li.innerHTML = `<span>${num_list}</span>${content}`
+        li.setAttribute('class', 'list');
+        li.setAttribute('id', content);
         ul.appendChild(li);
+    }else{
+        let same_content = document.getElementById(content) || null;
+        if(same_content == null ){
+            num_list += 1;
+            let li =document.createElement('li');
+            li.innerHTML = `<span>${num_list}</span>${content}`
+            li.setAttribute('class', 'list');
+            li.setAttribute('id', content);
+            ul.appendChild(li);
+        }else{
+            Toastify({
+                text: "El elemento ya se encuentra en la clase",
+                className: "info",
+                style: {
+                background: "linear-gradient(to right, #000000, #ff9a04)",
+                }
+            }).showToast();
+        }
+
     }
-    
-    
 }
