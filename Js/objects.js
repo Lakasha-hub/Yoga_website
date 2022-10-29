@@ -1,4 +1,4 @@
-class user_class {
+class Yoga_Class {
     /**
      * 
      * @param {Object} respiraciones 
@@ -9,7 +9,7 @@ class user_class {
     constructor(respiraciones, mudras, posturas){
         this.respiraciones = respiraciones;
         this.mudras = mudras;
-        this.kriyas = posturas;
+        this.posturas = posturas;
     }
     
 }

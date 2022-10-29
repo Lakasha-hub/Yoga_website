@@ -146,7 +146,7 @@
     top: 120px;
 }
 .box{
-    width: 300px;
+    width: 450px;
 }
 .box h2{
     color: #000000;
@@ -225,3 +225,73 @@
 .dropdown2 .option2 div:hover{
     background: #ff9a04;
 }
+.button_error{
+    background: #C30000;
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    overflow: hidden;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 0;
+    display: inline-flex;
+    
+}
+.button_error:hover{
+    background: #960000;
+}
+
+.button_text, .button_icon{
+    display: inline-flex;
+    align-items: center;
+    padding: 0 24px;
+    color: #ffffff;
+    height: 100%;
+}
+
+.button_icon{
+    font-size: 1.5em;
+    background: rgba(0, 0, 0, 0.08);
+}
+
+.button_save{
+    background: #ff9a04;
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    overflow: hidden;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 0;
+    margin-top: 10px;
+    display: inline-flex;
+    justify-content: center;
+}
+.button_save:hover{
+    background: #E18905;
+}
+.button_clear{
+    background: #C30000;
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    overflow: hidden;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 0;
+    display: inline-flex;
+    justify-content: center;
+    display: none;
+}
+.button_clear.active{
+    display: block;
+}
+.button_clear:hover{
+    background: #960000;
+}
+
