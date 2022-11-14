@@ -3,516 +3,589 @@
         {
             "id":1,
             "sanskrit_name":"Navasana",
-            "Nombre":"Boat",
-            "img_url":"https://www.dropbox.com/s/4m64ztxkj8a4dab/boatstraightlegs.svg?raw=1"
+            "nombre":"Boat",
+            "img_url":"https://www.dropbox.com/s/4m64ztxkj8a4dab/boatstraightlegs.svg?raw=1",
+            "desc":"Esta es la descripción de Boat: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis animi sapiente inventore aspernatur quae autem laborum nemo, aut magni fugit, commodi ullam molestias nisi praesentium optio accusamus voluptatum atque!"
         },{
             "id":2,
             "sanskrit_name":"Ardha Navasana",
-            "Nombre":"Half-Boat",
-            "img_url":"https://www.dropbox.com/s/1nx0r94msxjwvyp/boatbentlegs.svg?raw=1"
+            "nombre":"Half-Boat",
+            "img_url":"https://www.dropbox.com/s/1nx0r94msxjwvyp/boatbentlegs.svg?raw=1",
+            "desc":"Esta es la descripción de Half-Boat: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis animi sapiente inventore aspernatur quae autem laborum nemo, aut magni fugit, commodi ullam molestias nisi praesentium optio accusamus voluptatum atque!"
         },{
             "id":3,
             "sanskrit_name":"Dhanurasana",
-            "Nombre":"Bow",
-            "img_url":"https://www.dropbox.com/s/wizj5kwxvez4c0a/bow.svg?raw=1"
+            "nombre":"Bow",
+            "img_url":"https://www.dropbox.com/s/wizj5kwxvez4c0a/bow.svg?raw=1",
+            "desc":"Esta es la descripción de Bow: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis animi sapiente inventore aspernatur quae autem laborum nemo, aut magni fugit, commodi ullam molestias nisi praesentium optio accusamus voluptatum atque!"
         },{
             "id":4,
             "sanskrit_name":"Setu Bandha Sarvangasana",
-            "Nombre":"Bridge",
-            "img_url":"https://www.dropbox.com/s/f1w64ybg4sn8ejt/bridge.svg?raw=1"
+            "nombre":"Bridge",
+            "img_url":"https://www.dropbox.com/s/f1w64ybg4sn8ejt/bridge.svg?raw=1",
+            "desc":"Esta es la descripción de Bridge: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis animi sapiente inventore aspernatur quae autem laborum nemo, aut magni fugit, commodi ullam molestias nisi praesentium optio accusamus voluptatum atque!"
         },{
             "id":5,
             "sanskrit_name":"Baddha Konasana",
-            "Nombre":"Butterfly",
-            "img_url":"https://www.dropbox.com/s/3h2pts6xbn28dh7/butterfly%3F.svg?raw=1"
+            "nombre":"Butterfly",
+            "img_url":"https://www.dropbox.com/s/3h2pts6xbn28dh7/butterfly%3F.svg?raw=1",
+            "desc":"Esta es la descripción de Butterfly: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis animi sapiente inventore aspernatur quae autem laborum nemo, aut magni fugit, commodi ullam molestias nisi praesentium optio accusamus voluptatum atque!"
         },{
             "id":6,
             "sanskrit_name":"Ustrasana",
-            "Nombre":"Camel",
-            "img_url":"https://www.dropbox.com/s/o5gr4lngltsdg5r/camel.svg?raw=1"
+            "nombre":"Camel",
+            "img_url":"https://www.dropbox.com/s/o5gr4lngltsdg5r/camel.svg?raw=1",
+            "desc":"Esta es la descripción de Camel: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis animi sapiente inventore aspernatur quae autem laborum nemo, aut magni fugit, commodi ullam molestias nisi praesentium optio accusamus voluptatum atque!"
         },{
             "id":7,
             "sanskrit_name":"Marjaryasana",
-            "Nombre":"Cat",
-            "img_url":"https://www.dropbox.com/s/cginnz98of2jpgr/cat.svg?raw=1"
+            "nombre":"Cat",
+            "img_url":"https://www.dropbox.com/s/cginnz98of2jpgr/cat.svg?raw=1",
+            "desc":"Esta es la descripción de Cat: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis animi sapiente inventore aspernatur quae autem laborum nemo, aut magni fugit, commodi ullam molestias nisi praesentium optio accusamus voluptatum atque!"
         },{
             "id":8,
             "sanskrit_name":"Bitilasana",
-            "Nombre":"Cow",
-            "img_url":"https://www.dropbox.com/s/neau4ceai1rskh6/cow.svg?raw=1"
+            "nombre":"Cow",
+            "img_url":"https://www.dropbox.com/s/neau4ceai1rskh6/cow.svg?raw=1",
+            "desc":"Esta es la descripción de Cow: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis animi sapiente inventore aspernatur quae autem laborum nemo, aut magni fugit, commodi ullam molestias nisi praesentium optio accusamus voluptatum atque!"
         },{
             "id":9,
             "sanskrit_name":"Utkatasana",
-            "Nombre":"Chair",
-            "img_url":"https://www.dropbox.com/s/9emlawz8vayk8bm/chair.svg?raw=1"
+            "nombre":"Chair",
+            "img_url":"https://www.dropbox.com/s/9emlawz8vayk8bm/chair.svg?raw=1",
+            "desc":"Esta es la descripción de Chair: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis animi sapiente inventore aspernatur quae autem laborum nemo, aut magni fugit, commodi ullam molestias nisi praesentium optio accusamus voluptatum atque!"
         },{
             "id":10,
             "sanskrit_name":"Balasana",
-            "Nombre":"Child's Pose",
-            "img_url":"https://www.dropbox.com/s/ini3uwali0q5gxa/child.svg?raw=1"
+            "nombre":"Child's Pose",
+            "img_url":"https://www.dropbox.com/s/ini3uwali0q5gxa/child.svg?raw=1",
+            "desc":"Esta es la descripción de Child's Pose: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis animi sapiente inventore aspernatur quae autem laborum nemo, aut magni fugit, commodi ullam molestias nisi praesentium optio accusamus voluptatum atque!"
         },{
             "id":11,
             "sanskrit_name":"Sivasana",
-            "Nombre":"Corpse",
-            "img_url":"https://www.dropbox.com/s/eohyx2crvtjvaxb/sivasana.svg?raw=1"
+            "nombre":"Corpse",
+            "img_url":"https://www.dropbox.com/s/eohyx2crvtjvaxb/sivasana.svg?raw=1",
+            "desc":"Esta es la descripción de Corpse: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis animi sapiente inventore aspernatur quae autem laborum nemo, aut magni fugit, commodi ullam molestias nisi praesentium optio accusamus voluptatum atque!"
         },{
             "id":12,
             "sanskrit_name":"Alanasana",
-            "Nombre":"Crescent Lunge",
-            "img_url":"https://www.dropbox.com/s/1oc1dqv8mfwo8uj/highlunge.svg?raw=1"
+            "nombre":"Crescent Lunge",
+            "img_url":"https://www.dropbox.com/s/1oc1dqv8mfwo8uj/highlunge.svg?raw=1",
+            "desc":"Esta es la descripción de Crescent Lunge: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis animi sapiente inventore aspernatur quae autem laborum nemo, aut magni fugit, commodi ullam molestias nisi praesentium optio accusamus voluptatum atque!"
         },{
             "id":13,
             "sanskrit_name":"Bakasana",
-            "Nombre":"Crow",
-            "img_url":"https://www.dropbox.com/s/ukaxoioh0uooswj/crow.svg?raw=1"
+            "nombre":"Crow",
+            "img_url":"https://www.dropbox.com/s/ukaxoioh0uooswj/crow.svg?raw=1",
+            "desc":"Esta es la descripción de Crow: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis animi sapiente inventore aspernatur quae autem laborum nemo, aut magni fugit, commodi ullam molestias nisi praesentium optio accusamus voluptatum atque!"
         },{
             "id":14,
             "sanskrit_name":"Ardha Pincha Mayurasana",
-            "Nombre":"Dolphin",
-            "img_url":"https://www.dropbox.com/s/px1foombb3v24se/dolphin.svg?raw=1"
+            "nombre":"Dolphin",
+            "img_url":"https://www.dropbox.com/s/px1foombb3v24se/dolphin.svg?raw=1",
+            "desc":"Esta es la descripción de Dolphin: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis animi sapiente inventore aspernatur quae autem laborum nemo, aut magni fugit, commodi ullam molestias nisi praesentium optio accusamus voluptatum atque!"
         },{
             "id":15,
             "sanskrit_name":"Adho Mukha Svanasana",
-            "Nombre":"Downward-Facing Dog",
-            "img_url":"https://www.dropbox.com/s/75xa1bduu2u5y7d/downdog.svg?raw=1"
+            "nombre":"Downward-Facing Dog",
+            "img_url":"https://www.dropbox.com/s/75xa1bduu2u5y7d/downdog.svg?raw=1",
+            "desc":"Esta es la descripción de Downward-Facing Dog: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis animi sapiente inventore aspernatur quae autem laborum nemo, aut magni fugit, commodi ullam molestias nisi praesentium optio accusamus voluptatum atque!"
         },{
             "id":16,
             "sanskrit_name":"Garudasana",
-            "Nombre":"Eagle",
-            "img_url":"https://www.dropbox.com/s/w05qgx7wyxva1y3/eagle.svg?raw=1"
+            "nombre":"Eagle",
+            "img_url":"https://www.dropbox.com/s/w05qgx7wyxva1y3/eagle.svg?raw=1",
+            "desc":"Esta es la descripción de Eagle: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis animi sapiente inventore aspernatur quae autem laborum nemo, aut magni fugit, commodi ullam molestias nisi praesentium optio accusamus voluptatum atque!"
         },{
             "id":17,
             "sanskrit_name":"Utthita Hasta Padangusthasana",
-            "Nombre":"Extended Hand to Toe",
-            "img_url":"https://www.dropbox.com/s/0yk0z7f0a4ni37l/extendedhandtotoe.svg?raw=1"
+            "nombre":"Extended Hand to Toe",
+            "img_url":"https://www.dropbox.com/s/0yk0z7f0a4ni37l/extendedhandtotoe.svg?raw=1",
+            "desc":"Esta es la descripción de Extended Hand to Toe: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis animi sapiente inventore aspernatur quae autem laborum nemo, aut magni fugit, commodi ullam molestias nisi praesentium optio accusamus voluptatum atque!"
         },{
             "id":18,
             "sanskrit_name":"Utthita Parsvakonasana",
-            "Nombre":"Extended Side Angle",
-            "img_url":"https://www.dropbox.com/s/yzynxmyb9o7eras/extendedsideangle.svg?raw=1"
+            "nombre":"Extended Side Angle",
+            "img_url":"https://www.dropbox.com/s/yzynxmyb9o7eras/extendedsideangle.svg?raw=1",
+            "desc":"Esta es la descripción de Extended Side Angle: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis animi sapiente inventore aspernatur quae autem laborum nemo, aut magni fugit, commodi ullam molestias nisi praesentium optio accusamus voluptatum atque!"
         },{
             "id":19,
             "sanskrit_name":"Pincha Mayurasana",
-            "Nombre":"Forearm Stand",
-            "img_url":"https://www.dropbox.com/s/kjlyju4m91qgoi6/forearmstand.svg?raw=1"
+            "nombre":"Forearm Stand",
+            "img_url":"https://www.dropbox.com/s/kjlyju4m91qgoi6/forearmstand.svg?raw=1",
+            "desc":"Esta es la descripción de Forearm Stand: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis animi sapiente inventore aspernatur quae autem laborum nemo, aut magni fugit, commodi ullam molestias nisi praesentium optio accusamus voluptatum atque!"
         },{
             "id":20,
             "sanskrit_name":"Uttanasana",
-            "Nombre":"Forward Bend with Shoulder Opener",
-            "img_url":"https://www.dropbox.com/s/sjqfq99pqpelv4v/forwardfoldshoulderstretch.svg?raw=1"
+            "nombre":"Forward Bend with Shoulder Opener",
+            "img_url":"https://www.dropbox.com/s/sjqfq99pqpelv4v/forwardfoldshoulderstretch.svg?raw=1",
+            "desc":"Esta es la descripción de Forward Bend with Shoulder Opener: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis animi sapiente inventore aspernatur quae autem laborum nemo, aut magni fugit, commodi ullam molestias nisi praesentium optio accusamus voluptatum atque!"
         },{
             "id":21,
             "sanskrit_name":"Ardha Chandrasana",
-            "Nombre":"Half-Moon",
-            "img_url":"https://www.dropbox.com/s/gpumf9eehr8wo9g/halfmoon.svg?raw=1"
+            "nombre":"Half-Moon",
+            "img_url":"https://www.dropbox.com/s/gpumf9eehr8wo9g/halfmoon.svg?raw=1",
+            "desc":"Esta es la descripción de Half-Moon: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis animi sapiente inventore aspernatur quae autem laborum nemo, aut magni fugit, commodi ullam molestias nisi praesentium optio accusamus voluptatum atque!"
         },{
             "id":22,
             "sanskrit_name":"Adho Mukha Vrksasana",
-            "Nombre":"Handstand",
-            "img_url":"https://www.dropbox.com/s/p7pf5j0untktn9c/handstand.svg?raw=1"
+            "nombre":"Handstand",
+            "img_url":"https://www.dropbox.com/s/p7pf5j0untktn9c/handstand.svg?raw=1",
+            "desc":"Esta es la descripción de Handstand: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis animi sapiente inventore aspernatur quae autem laborum nemo, aut magni fugit, commodi ullam molestias nisi praesentium optio accusamus voluptatum atque!"
         },{
             "id":23,
             "sanskrit_name":"Anjaneyasana",
-            "Nombre":"Low Lunge",
-            "img_url":"https://www.dropbox.com/s/h0ehjaz1wa9xfu1/lowlunge.svg?raw=1"
+            "nombre":"Low Lunge",
+            "img_url":"https://www.dropbox.com/s/h0ehjaz1wa9xfu1/lowlunge.svg?raw=1",
+            "desc":"Esta es la descripción de Low Lunge: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis animi sapiente inventore aspernatur quae autem laborum nemo, aut magni fugit, commodi ullam molestias nisi praesentium optio accusamus voluptatum atque!"
         },{
             "id":24,
             "sanskrit_name":"Supta Kapotasana",
-            "Nombre":"Pigeon",
-            "img_url":"https://www.dropbox.com/s/77peru289zm446u/pigeon.svg?raw=1"
+            "nombre":"Pigeon",
+            "img_url":"https://www.dropbox.com/s/77peru289zm446u/pigeon.svg?raw=1",
+            "desc":"Esta es la descripción de Pigeon: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis animi sapiente inventore aspernatur quae autem laborum nemo, aut magni fugit, commodi ullam molestias nisi praesentium optio accusamus voluptatum atque!"
         },{
             "id":25,
             "sanskrit_name":"Eka Pada Rajakapotasana",
-            "Nombre":"King Pigeon",
-            "img_url":"https://www.dropbox.com/s/10usd0gcqgy6o53/kingpigeon.svg?raw=1"
+            "nombre":"King Pigeon",
+            "img_url":"https://www.dropbox.com/s/10usd0gcqgy6o53/kingpigeon.svg?raw=1",
+            "desc":"Esta es la descripción de King Pigeon: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis animi sapiente inventore aspernatur quae autem laborum nemo, aut magni fugit, commodi ullam molestias nisi praesentium optio accusamus voluptatum atque!"
         },{
             "id":26,
             "sanskrit_name":"Phalakasana",
-            "Nombre":"Plank",
-            "img_url":"https://www.dropbox.com/s/jg6ge8zpaltx10f/plank.svg?raw=1"
+            "nombre":"Plank",
+            "img_url":"https://www.dropbox.com/s/jg6ge8zpaltx10f/plank.svg?raw=1",
+            "desc":"Esta es la descripción de Plank: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis animi sapiente inventore aspernatur quae autem laborum nemo, aut magni fugit, commodi ullam molestias nisi praesentium optio accusamus voluptatum atque!"
         },{
             "id":27,
             "sanskrit_name":"Halasana",
-            "Nombre":"Plow",
-            "img_url":"https://www.dropbox.com/s/zi9231wbajm6d2m/plow.svg?raw=1"
+            "nombre":"Plow",
+            "img_url":"https://www.dropbox.com/s/zi9231wbajm6d2m/plow.svg?raw=1",
+            "desc":"Esta es la descripción de Plow: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis animi sapiente inventore aspernatur quae autem laborum nemo, aut magni fugit, commodi ullam molestias nisi praesentium optio accusamus voluptatum atque!"
         },{
             "id":28,
             "sanskrit_name":"Parsvottanasana",
-            "Nombre":"Pyramid",
-            "img_url":"https://www.dropbox.com/s/j7p2600bmf840e0/pyramid.svg?raw=1"
+            "nombre":"Pyramid",
+            "img_url":"https://www.dropbox.com/s/j7p2600bmf840e0/pyramid.svg?raw=1",
+            "desc":"Esta es la descripción de Pyramid: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis animi sapiente inventore aspernatur quae autem laborum nemo, aut magni fugit, commodi ullam molestias nisi praesentium optio accusamus voluptatum atque!"
         },{
             "id":29,
             "sanskrit_name":"Parsva Virabhadrasana",
-            "Nombre":"Reverse Warrior",
-            "img_url":"https://www.dropbox.com/s/q6yn6cb9fglo0wp/reverswarrior.svg?raw=1"
+            "nombre":"Reverse Warrior",
+            "img_url":"https://www.dropbox.com/s/q6yn6cb9fglo0wp/reverswarrior.svg?raw=1",
+            "desc":"Esta es la descripción de Reverse Warrior: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis animi sapiente inventore aspernatur quae autem laborum nemo, aut magni fugit, commodi ullam molestias nisi praesentium optio accusamus voluptatum atque!"
         },{
             "id":30,
             "sanskrit_name":"Paschimottanasana",
-            "Nombre":"Seated Forward Bend",
-            "img_url":"https://www.dropbox.com/s/ji0otecqx42by00/seatedforwardfold.svg?raw=1"
+            "nombre":"Seated Forward Bend",
+            "img_url":"https://www.dropbox.com/s/ji0otecqx42by00/seatedforwardfold.svg?raw=1",
+            "desc":"Esta es la descripción de Seated Forward Bend: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis animi sapiente inventore aspernatur quae autem laborum nemo, aut magni fugit, commodi ullam molestias nisi praesentium optio accusamus voluptatum atque!"
         },{
             "id":31,
             "sanskrit_name":"Padmasana",
-            "Nombre":"Lotus",
-            "img_url":"https://www.dropbox.com/s/0oylivjwzuj5fnp/seatedORlotus.svg?raw=1"
+            "nombre":"Lotus",
+            "img_url":"https://www.dropbox.com/s/0oylivjwzuj5fnp/seatedORlotus.svg?raw=1",
+            "desc":"Esta es la descripción de Lotus: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis animi sapiente inventore aspernatur quae autem laborum nemo, aut magni fugit, commodi ullam molestias nisi praesentium optio accusamus voluptatum atque!"
         },{
             "id":32,
             "sanskrit_name":"Ardha Matsyendrasana",
-            "Nombre":"Half Lord of the Fishes",
-            "img_url":"https://www.dropbox.com/s/u9joi8lbntxumyh/seatedspinaltwist.svg?raw=1"
+            "nombre":"Half Lord of the Fishes",
+            "img_url":"https://www.dropbox.com/s/u9joi8lbntxumyh/seatedspinaltwist.svg?raw=1",
+            "desc":"Esta es la descripción de Half Lord of the Fishes: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis animi sapiente inventore aspernatur quae autem laborum nemo, aut magni fugit, commodi ullam molestias nisi praesentium optio accusamus voluptatum atque!"
         },{
             "id":33,
             "sanskrit_name":"Salamba Sarvangasana",
-            "Nombre":"Shoulder Stand",
-            "img_url":"https://www.dropbox.com/s/tqj48exec3zub2u/shoulderstand.svg?raw=1"
+            "nombre":"Shoulder Stand",
+            "img_url":"https://www.dropbox.com/s/tqj48exec3zub2u/shoulderstand.svg?raw=1",
+            "desc":"Esta es la descripción de Shoulder Stand: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis animi sapiente inventore aspernatur quae autem laborum nemo, aut magni fugit, commodi ullam molestias nisi praesentium optio accusamus voluptatum atque!"
         },{
             "id":34,
             "sanskrit_name":"Vasisthasana",
-            "Nombre":"Side Plank",
-            "img_url":"https://www.dropbox.com/s/w35ciia4u570xj8/sideplank.svg?raw=1"
+            "nombre":"Side Plank",
+            "img_url":"https://www.dropbox.com/s/w35ciia4u570xj8/sideplank.svg?raw=1",
+            "desc":"Esta es la descripción de Side Plank: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis animi sapiente inventore aspernatur quae autem laborum nemo, aut magni fugit, commodi ullam molestias nisi praesentium optio accusamus voluptatum atque!"
         },{
             "id":35,
             "sanskrit_name":"Salamba Bhujangasana",
-            "Nombre":"Sphinx",
-            "img_url":"https://www.dropbox.com/s/cl8teqpf9yingwm/sphinx.svg?raw=1"
+            "nombre":"Sphinx",
+            "img_url":"https://www.dropbox.com/s/cl8teqpf9yingwm/sphinx.svg?raw=1",
+            "desc":"Esta es la descripción de Sphinx: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis animi sapiente inventore aspernatur quae autem laborum nemo, aut magni fugit, commodi ullam molestias nisi praesentium optio accusamus voluptatum atque!"
         },{
             "id":36,
             "sanskrit_name":"Hanumanasana",
-            "Nombre":"Splits",
-            "img_url":"https://www.dropbox.com/s/u8dxhc41hjfcxj6/splits.svg?raw=1"
+            "nombre":"Splits",
+            "img_url":"https://www.dropbox.com/s/u8dxhc41hjfcxj6/splits.svg?raw=1",
+            "desc":"Esta es la descripción de Splits: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis animi sapiente inventore aspernatur quae autem laborum nemo, aut magni fugit, commodi ullam molestias nisi praesentium optio accusamus voluptatum atque!"
         },{
             "id":37,
             "sanskrit_name":"Malasana",
-            "Nombre":"Squat",
-            "img_url":"https://www.dropbox.com/s/ntrwtdlr6tdkdxz/squat.svg?raw=1"
+            "nombre":"Squat",
+            "img_url":"https://www.dropbox.com/s/ntrwtdlr6tdkdxz/squat.svg?raw=1",
+            "desc":"Esta es la descripción de Squat: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis animi sapiente inventore aspernatur quae autem laborum nemo, aut magni fugit, commodi ullam molestias nisi praesentium optio accusamus voluptatum atque!"
         },{
             "id":38,
             "sanskrit_name":"Uttanasana",
-            "Nombre":"Standing Forward Bend",
-            "img_url":"https://www.dropbox.com/s/u09snmhtposvaq0/standingforwardfold.svg?raw=1"
+            "nombre":"Standing Forward Bend",
+            "img_url":"https://www.dropbox.com/s/u09snmhtposvaq0/standingforwardfold.svg?raw=1",
+            "desc":"Esta es la descripción de Standing Forward Bend: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis animi sapiente inventore aspernatur quae autem laborum nemo, aut magni fugit, commodi ullam molestias nisi praesentium optio accusamus voluptatum atque!"
         },{
             "id":39,
             "sanskrit_name":"Ashta Chandrasana",
-            "Nombre":"Crescent Moon",
-            "img_url":"https://www.dropbox.com/s/9tv6z3qdcw2vg3a/standingstretch.svg?raw=1"
+            "nombre":"Crescent Moon",
+            "img_url":"https://www.dropbox.com/s/9tv6z3qdcw2vg3a/standingstretch.svg?raw=1",
+            "desc":"Esta es la descripción de Crescent Moon: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis animi sapiente inventore aspernatur quae autem laborum nemo, aut magni fugit, commodi ullam molestias nisi praesentium optio accusamus voluptatum atque!"
         },{
             "id":40,
             "sanskrit_name":"Upavistha Konasana",
-            "Nombre":"Side Splits",
-            "img_url":"https://www.dropbox.com/s/6z51vzosovhx5w7/straddlesplit.svg?raw=1"
+            "nombre":"Side Splits",
+            "img_url":"https://www.dropbox.com/s/6z51vzosovhx5w7/straddlesplit.svg?raw=1",
+            "desc":"Esta es la descripción de Side Splits: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis animi sapiente inventore aspernatur quae autem laborum nemo, aut magni fugit, commodi ullam molestias nisi praesentium optio accusamus voluptatum atque!"
         },{
             "id":41,
             "sanskrit_name":"Vrksasana",
-            "Nombre":"Tree",
-            "img_url":"https://www.dropbox.com/s/mn2ktlihp12mtfa/tree.svg?raw=1"
+            "nombre":"Tree",
+            "img_url":"https://www.dropbox.com/s/mn2ktlihp12mtfa/tree.svg?raw=1",
+            "desc":"Esta es la descripción de Tree: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis animi sapiente inventore aspernatur quae autem laborum nemo, aut magni fugit, commodi ullam molestias nisi praesentium optio accusamus voluptatum atque!"
         },{
             "id":42,
             "sanskrit_name":"Trikonasana",
-            "Nombre":"Triangle",
-            "img_url":"https://www.dropbox.com/s/l41pfqjwmjoy5os/triangle.svg?raw=1"
+            "nombre":"Triangle",
+            "img_url":"https://www.dropbox.com/s/l41pfqjwmjoy5os/triangle.svg?raw=1",
+            "desc":"Esta es la descripción de Triangle: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis animi sapiente inventore aspernatur quae autem laborum nemo, aut magni fugit, commodi ullam molestias nisi praesentium optio accusamus voluptatum atque!"
         },{
             "id":43,
             "sanskrit_name":"Urdhva Mukha Svsnssana",
-            "Nombre":"Upward-Facing Dog",
-            "img_url":"https://www.dropbox.com/s/vnfx1srlwt1583t/updog.svg?raw=1"
+            "nombre":"Upward-Facing Dog",
+            "img_url":"https://www.dropbox.com/s/vnfx1srlwt1583t/updog.svg?raw=1",
+            "desc":"Esta es la descripción de Upward-Facing Dog: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis animi sapiente inventore aspernatur quae autem laborum nemo, aut magni fugit, commodi ullam molestias nisi praesentium optio accusamus voluptatum atque!"
         },{
             "id":44,
             "sanskrit_name":"Virabhadrasana One",
-            "Nombre":"Warrior One",
-            "img_url":"https://www.dropbox.com/s/j9fip5gm1o1l3fx/warrior1.svg?raw=1"
+            "nombre":"Warrior One",
+            "img_url":"https://www.dropbox.com/s/j9fip5gm1o1l3fx/warrior1.svg?raw=1",
+            "desc":"Esta es la descripción de Warrior One: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis animi sapiente inventore aspernatur quae autem laborum nemo, aut magni fugit, commodi ullam molestias nisi praesentium optio accusamus voluptatum atque!"
         },{
             "id":45,
             "sanskrit_name":"Virabhadrasana Two",
-            "Nombre":"Warrior Two",
-            "img_url":"https://www.dropbox.com/s/rsb3mx41dfq4otl/warrior2.svg?raw=1"
+            "nombre":"Warrior Two",
+            "img_url":"https://www.dropbox.com/s/rsb3mx41dfq4otl/warrior2.svg?raw=1",
+            "desc":"Esta es la descripción de Warrior Two: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis animi sapiente inventore aspernatur quae autem laborum nemo, aut magni fugit, commodi ullam molestias nisi praesentium optio accusamus voluptatum atque!"
         },{
             "id":46,
             "sanskrit_name":"Virabhadrasana Three",
-            "Nombre":"Warrior Three",
-            "img_url":"https://www.dropbox.com/s/lwgoky3z37ameif/warrior3.svg?raw=1"
+            "nombre":"Warrior Three",
+            "img_url":"https://www.dropbox.com/s/lwgoky3z37ameif/warrior3.svg?raw=1",
+            "desc":"Esta es la descripción de Warrior Three: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis animi sapiente inventore aspernatur quae autem laborum nemo, aut magni fugit, commodi ullam molestias nisi praesentium optio accusamus voluptatum atque!"
         },{
             "id":47,
             "sanskrit_name":"Urdhva Dhanurasana",
-            "Nombre":"Wheel",
-            "img_url":"https://www.dropbox.com/s/kpa1bewuut3lm5q/wheel.svg?raw=1"
+            "nombre":"Wheel",
+            "img_url":"https://www.dropbox.com/s/kpa1bewuut3lm5q/wheel.svg?raw=1",
+            "desc":"Esta es la descripción de Wheel: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis animi sapiente inventore aspernatur quae autem laborum nemo, aut magni fugit, commodi ullam molestias nisi praesentium optio accusamus voluptatum atque!"
         },{
             "id":48,
             "sanskrit_name":"Camatkarasana",
-            "Nombre":"Wild Thing",
-            "img_url":"https://www.dropbox.com/s/d1dbdvo4l7xry4w/downdogflip.svg?raw=1"
+            "nombre":"Wild Thing",
+            "img_url":"https://www.dropbox.com/s/d1dbdvo4l7xry4w/downdogflip.svg?raw=1",
+            "desc":"Esta es la descripción de Wild Thing: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis animi sapiente inventore aspernatur quae autem laborum nemo, aut magni fugit, commodi ullam molestias nisi praesentium optio accusamus voluptatum atque!"
         }
     ],
     "Respiraciones":[
         {
             "id": 49,
-            "Nombre": "Ujjayi",
+            "nombre": "Ujjayi",
             "Tipo": "Tamásica",
-            "Descripcion": "",
-            "Beneficios": ""
+            "desc":"Esta es la descripción de Ujjayi: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis animi sapiente inventore aspernatur quae autem laborum nemo, aut magni fugit, commodi ullam molestias nisi praesentium optio accusamus voluptatum atque!",
+            "Beneficios": "",
+            "img_url": "/assets/img/respiraciones/respiracion_ujjayi.jpg"
         },{
             "id": 50,
-            "Nombre":"Nasagra",
+            "nombre":"Nasagra",
             "Tipo": "Rajásica",
-            "Descripcion": "",
-            "Beneficios": ""
+            "desc":"Esta es la descripción de Nasagra: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis animi sapiente inventore aspernatur quae autem laborum nemo, aut magni fugit, commodi ullam molestias nisi praesentium optio accusamus voluptatum atque!",
+            "Beneficios": "",
+            "img_url": "/assets/img/respiraciones/respiracion_nasagra.jpg"
         },{
             "id": 51,
-            "Nombre":"Completa",
+            "nombre":"Completa",
             "Tipo": "Sáttvica",
-            "Descripcion": "",
-            "Beneficios": ""
+            "desc":"Esta es la descripción de Respiración Completa: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis animi sapiente inventore aspernatur quae autem laborum nemo, aut magni fugit, commodi ullam molestias nisi praesentium optio accusamus voluptatum atque!",
+            "Beneficios": "",
+            "img_url": "/assets/img/respiraciones/respiracion_completa1.png"
         },{
             "id": 52,
-            "Nombre":"Abdominal",
+            "nombre":"Abdominal",
             "Tipo": "Tamásica",
-            "Descripcion": "",
-            "Beneficios": ""
+            "desc":"Esta es la descripción de Respiración Abdominal: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis animi sapiente inventore aspernatur quae autem laborum nemo, aut magni fugit, commodi ullam molestias nisi praesentium optio accusamus voluptatum atque!",
+            "Beneficios": "",
+            "img_url": "/assets/img/respiraciones/respiracion_abdominal.png"
         },{
             "id": 53,
-            "Nombre":"Torácica",
+            "nombre":"Torácica",
             "Tipo": "Sáttvica",
-            "Descripcion": "",
-            "Beneficios": ""
+            "desc":"Esta es la descripción de Respiración Torácica: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis animi sapiente inventore aspernatur quae autem laborum nemo, aut magni fugit, commodi ullam molestias nisi praesentium optio accusamus voluptatum atque!",
+            "Beneficios": "",
+            "img_url": "/assets/img/respiraciones/respiracion_toracica.jpg"
         },{
             "id": 54,
-            "Nombre":"Clavicular",
+            "nombre":"Clavicular",
             "Tipo": "Rajásica",
-            "Descripcion": "",
-            "Beneficios": ""
+            "desc":"Esta es la descripción de Respiración Clavicular: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis animi sapiente inventore aspernatur quae autem laborum nemo, aut magni fugit, commodi ullam molestias nisi praesentium optio accusamus voluptatum atque!",
+            "Beneficios": "",
+            "img_url": "/assets/img/respiraciones/respiracion_clavicular.png"
         },{
             "id": 55,
-            "Nombre":"Completa(Tamásica)",
+            "nombre":"Completa(Tamásica)",
             "Tipo": "Rajásica",
-            "Descripcion": "",
-            "Beneficios": ""
+            "desc":"Esta es la descripción de Respiración Completa(Tamásica): Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis animi sapiente inventore aspernatur quae autem laborum nemo, aut magni fugit, commodi ullam molestias nisi praesentium optio accusamus voluptatum atque!",
+            "Beneficios": "",
+            "img_url": "/assets/img/respiraciones/respiracion_completa_abdominal.png"
         },{
             "id": 56,
-            "Nombre":"Completa(Rajásica)",
+            "nombre":"Completa(Rajásica)",
             "Tipo": "Rajásica",
-            "Descripcion": "",
-            "Beneficios": ""
+            "desc":"Esta es la descripción de Respiración Completa(Rajásica): Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis animi sapiente inventore aspernatur quae autem laborum nemo, aut magni fugit, commodi ullam molestias nisi praesentium optio accusamus voluptatum atque!",
+            "Beneficios": "",
+            "img_url": "/assets/img/respiraciones/respiracion_completa_rajasica.png"
         },{
             "id": 57,
-            "Nombre":"Completa(Sáttvica)",
+            "nombre":"Completa(Sáttvica)",
             "Tipo": "Sáttvica",
-            "Descripcion": "",
-            "Beneficios": ""
+            "desc":"Esta es la descripción de Respiración Completa(Sáttvica): Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis animi sapiente inventore aspernatur quae autem laborum nemo, aut magni fugit, commodi ullam molestias nisi praesentium optio accusamus voluptatum atque!",
+            "Beneficios": "",
+            "img_url": "/assets/img/respiraciones/respiracion_completa_toracica.png"
         },{
             "id": 58,
-            "Nombre":"Bastrika",
+            "nombre":"Bastrika",
             "Tipo": "Rajásica",
-            "Descripcion": "",
-            "Beneficios": ""
+            "desc":"Esta es la descripción de Bastrika: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis animi sapiente inventore aspernatur quae autem laborum nemo, aut magni fugit, commodi ullam molestias nisi praesentium optio accusamus voluptatum atque!",
+            "Beneficios": "",
+            "img_url": "/assets/img/respiraciones/respiracion_bastrika.jfif"
         },{
             "id": 59,
-            "Nombre":"Kaphalabhati",
+            "nombre":"Kaphalabhati",
             "Tipo": "Rajásica",
-            "Descripcion": "",
-            "Beneficios": ""
+            "desc":"Esta es la descripción de Kaphalabhati: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis animi sapiente inventore aspernatur quae autem laborum nemo, aut magni fugit, commodi ullam molestias nisi praesentium optio accusamus voluptatum atque!",
+            "Beneficios": "",
+            "img_url": "/assets/img/respiraciones/respiracion_bastrika.jfif"
         },{
             "id": 60,
-            "Nombre":"Surya Bhedhana",
+            "nombre":"Surya Bhedhana",
             "Tipo": "Rajásica",
-            "Descripcion": "",
-            "Beneficios": ""
+            "desc":"Esta es la descripción de Surya Bhedhana: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis animi sapiente inventore aspernatur quae autem laborum nemo, aut magni fugit, commodi ullam molestias nisi praesentium optio accusamus voluptatum atque!",
+            "Beneficios": "",
+            "img_url": "/assets/img/respiraciones/respiracion_surya.png"
         },{
             "id": 61,
-            "Nombre":"Chandra Bhedhana",
+            "nombre":"Chandra Bhedhana",
             "Tipo": "Tamásica",
-            "Descripcion": "",
-            "Beneficios": ""
+            "desc":"Esta es la descripción de Chandra Bhedhana: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis animi sapiente inventore aspernatur quae autem laborum nemo, aut magni fugit, commodi ullam molestias nisi praesentium optio accusamus voluptatum atque!",
+            "Beneficios": "",
+            "img_url": "/assets/img/respiraciones/respiracion_chandra.png"
         },{
             "id": 62,
-            "Nombre":"Nadi Sodhana",
+            "nombre":"Nadi Sodhana",
             "Tipo": "Sáttvica",
-            "Descripcion": "",
-            "Beneficios": ""
+            "desc":"Esta es la descripción de Nadi Sodhana: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis animi sapiente inventore aspernatur quae autem laborum nemo, aut magni fugit, commodi ullam molestias nisi praesentium optio accusamus voluptatum atque!",
+            "Beneficios": "",
+            "img_url": "/assets/img/respiraciones/respiracion_nadi.jpg"
         },{
             "id": 63,
-            "Nombre":"Samavitri",
+            "nombre":"Samavitri",
             "Tipo": "Sáttvica",
-            "Descripcion": "",
-            "Beneficios": ""
+            "desc":"Esta es la descripción de Samavitri: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis animi sapiente inventore aspernatur quae autem laborum nemo, aut magni fugit, commodi ullam molestias nisi praesentium optio accusamus voluptatum atque!",
+            "Beneficios": "",
+            "img_url": "/assets/img/respiraciones/respiracion_samavriti.png"
         },{
             "id": 64,
-            "Nombre":"Fraccionada(Inhalación)",
+            "nombre":"Fraccionada(Inhalación)",
             "Tipo": "Rajásica",
-            "Descripcion": "",
-            "Beneficios": ""
+            "desc":"Esta es la descripción de Respiración Fraccionada(Inhalación): Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis animi sapiente inventore aspernatur quae autem laborum nemo, aut magni fugit, commodi ullam molestias nisi praesentium optio accusamus voluptatum atque!",
+            "Beneficios": "",
+            "img_url": "/assets/img/respiraciones/respiracion_fraccionada_inh.jpg"
         },{
             "id": 65,
-            "Nombre":"Fraccionada(Exhalación)",
+            "nombre":"Fraccionada(Exhalación)",
             "Tipo": "Tamásica",
-            "Descripcion": "",
-            "Beneficios": ""
+            "desc":"Esta es la descripción de Respiración Fraccionada(Exhalación): Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis animi sapiente inventore aspernatur quae autem laborum nemo, aut magni fugit, commodi ullam molestias nisi praesentium optio accusamus voluptatum atque!",
+            "Beneficios": "",
+            "img_url": "/assets/img/respiraciones/respiracion_fraccionada_exh.jpg"
         },{
             "id": 66,
-            "Nombre":"Fraccionada(Inhalación y Exhalación)",
+            "nombre":"Fraccionada(Inhalación y Exhalación)",
             "Tipo": "Sáttvica",
-            "Descripcion": "",
-            "Beneficios": ""
+            "desc":"Esta es la descripción de Respiración Fraccionada(Inhalación y Exhalación): Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis animi sapiente inventore aspernatur quae autem laborum nemo, aut magni fugit, commodi ullam molestias nisi praesentium optio accusamus voluptatum atque!",
+            "Beneficios": "",
+            "img_url": "/assets/img/respiraciones/respiracion_fraccionada_equilibrada.jpg"
         },{
             "id": 67,
-            "Nombre":"Jadeo",
+            "nombre":"Jadeo",
             "Tipo": "Rajásica",
-            "Descripcion": "",
-            "Beneficios": ""
+            "desc":"Esta es la descripción de Respiración de Jadeo: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis animi sapiente inventore aspernatur quae autem laborum nemo, aut magni fugit, commodi ullam molestias nisi praesentium optio accusamus voluptatum atque!",
+            "Beneficios": "",
+            "img_url": "/assets/img/respiraciones/respiracion_jadeo.jpg"
         },{
             "id": 68,
-            "Nombre":"Silbar",
+            "nombre":"Silbar",
             "Tipo": "Tamásica",
-            "Descripcion": "",
-            "Beneficios": ""
+            "desc":"Esta es la descripción de Respiración de Silbar: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis animi sapiente inventore aspernatur quae autem laborum nemo, aut magni fugit, commodi ullam molestias nisi praesentium optio accusamus voluptatum atque!",
+            "Beneficios": "",
+            "img_url": "/assets/img/respiraciones/respiracion_silbar.jpg"
         },{
             "id": 69,
-            "Nombre":"Bostezo",
+            "nombre":"Bostezo",
             "Tipo": "Tamásica",
-            "Descripcion": "",
-            "Beneficios": ""
+            "desc":"Esta es la descripción de Respiración de Bostezo: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis animi sapiente inventore aspernatur quae autem laborum nemo, aut magni fugit, commodi ullam molestias nisi praesentium optio accusamus voluptatum atque!",
+            "Beneficios": "",
+            "img_url": "/assets/img/respiraciones/respiracion_bostezo.png"
         },{
             "id": 70,
-            "Nombre":"Limpieza",
+            "nombre":"Limpieza",
             "Tipo": "Tamásica",
-            "Descripcion": "",
-            "Beneficios": ""
+            "desc":"Esta es la descripción de Respiración de Limpieza: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis animi sapiente inventore aspernatur quae autem laborum nemo, aut magni fugit, commodi ullam molestias nisi praesentium optio accusamus voluptatum atque!",
+            "Beneficios": "",
+            "img_url": "/assets/img/respiraciones/respiracion_bostezo.png"
         },{
             "id": 71,
-            "Nombre":"Inhalación Alargada",
+            "nombre":"Inhalación Alargada",
             "Tipo": "Rajásica",
-            "Descripcion": "",
-            "Beneficios": ""
+            "desc":"Esta es la descripción de Respiración con Inhalación Alargada: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis animi sapiente inventore aspernatur quae autem laborum nemo, aut magni fugit, commodi ullam molestias nisi praesentium optio accusamus voluptatum atque!",
+            "Beneficios": "",
+            "img_url": "/assets/img/respiraciones/respiracion_inh_alargada.png"
         },{
             "id": 72,
-            "Nombre":"Exhalación Alargada",
+            "nombre":"Exhalación Alargada",
             "Tipo": "Tamásica",
-            "Descripcion": "",
-            "Beneficios": ""
+            "desc":"Esta es la descripción de Respiración con Exhalación Alargada: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis animi sapiente inventore aspernatur quae autem laborum nemo, aut magni fugit, commodi ullam molestias nisi praesentium optio accusamus voluptatum atque!",
+            "Beneficios": "",
+            "img_url": "/assets/img/respiraciones/respiracion_exh_alargada.png"
         },{
             "id": 73,
-            "Nombre":"Circular",
+            "nombre":"Circular",
             "Tipo": "Sáttvica",
-            "Descripcion": "",
-            "Beneficios": ""
+            "desc":"Esta es la descripción de Respiración Circular: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis animi sapiente inventore aspernatur quae autem laborum nemo, aut magni fugit, commodi ullam molestias nisi praesentium optio accusamus voluptatum atque!",
+            "Beneficios": "",
+            "img_url": "/assets/img/respiraciones/respiracion_circular.jfif"
         }
     ],
     "Mudras":[
         {
             "id": 74,
-            "Nombre": "Pronam",
+            "nombre": "Pronam",
             "Tipo": "Hasta Mudra",
-            "Descripcion":"",
+            "desc":"Esta es la descripción de Pronam Mudra: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis animi sapiente inventore aspernatur quae autem laborum nemo, aut magni fugit, commodi ullam molestias nisi praesentium optio accusamus voluptatum atque!",
             "beneficios": "",
             "img_url": "/assets/img/mudras/Pronam_mudra.png"
         },{
             "id": 75,
-            "Nombre": "Trimurti",
+            "nombre": "Trimurti",
             "Tipo": "Hasta Mudra",
-            "Descripcion":"",
+            "desc":"Esta es la descripción de Trimurti Mudra: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis animi sapiente inventore aspernatur quae autem laborum nemo, aut magni fugit, commodi ullam molestias nisi praesentium optio accusamus voluptatum atque!",
             "beneficios": "",
             "img_url": "/assets/img/mudras/Trimurti_mudra.png"
         },{
             "id": 76,
-            "Nombre": "Chin",
+            "nombre": "Chin",
             "Tipo": "Hasta Mudra",
-            "Descripcion":"",
+            "desc":"Esta es la descripción de Chin Mudra: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis animi sapiente inventore aspernatur quae autem laborum nemo, aut magni fugit, commodi ullam molestias nisi praesentium optio accusamus voluptatum atque!",
             "beneficios": "",
             "img_url": "/assets/img/mudras/Chinmaya_mudra.jpg"
         },{
             "id": 77,
-            "Nombre": "Uttarabodhi",
+            "nombre": "Uttarabodhi",
             "Tipo": "Hasta Mudra",
-            "Descripcion":"",
+            "desc":"Esta es la descripción de Uttarabodhi Mudra: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis animi sapiente inventore aspernatur quae autem laborum nemo, aut magni fugit, commodi ullam molestias nisi praesentium optio accusamus voluptatum atque!",
             "beneficios": "",
             "img_url": "/assets/img/mudras/Uttarabodhi_mudra.png"
         },{
             "id": 78,
-            "Nombre": "Chinmaya",
+            "nombre": "Chinmaya",
             "Tipo": "Hasta Mudra",
-            "Descripcion":"",
+            "desc":"Esta es la descripción de Chinmaya Mudra: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis animi sapiente inventore aspernatur quae autem laborum nemo, aut magni fugit, commodi ullam molestias nisi praesentium optio accusamus voluptatum atque!",
             "beneficios": "",
             "img_url": "/assets/img/mudras/Chinmaya_mudra.jpg"
         },{
             "id": 79,
-            "Nombre": "Brahma",
+            "nombre": "Brahma",
             "Tipo": "Hasta Mudra",
-            "Descripcion":"",
+            "desc":"Esta es la descripción de Brahma Mudra: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis animi sapiente inventore aspernatur quae autem laborum nemo, aut magni fugit, commodi ullam molestias nisi praesentium optio accusamus voluptatum atque!",
             "beneficios": "",
             "img_url": "/assets/img/mudras/Adhi_mudra.png"
         },{
             "id": 80,
-            "Nombre": "Adhi",
+            "nombre": "Adhi",
             "Tipo": "Hasta Mudra",
-            "Descripcion":"",
+            "desc":"Esta es la descripción de Adhi Mudra: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis animi sapiente inventore aspernatur quae autem laborum nemo, aut magni fugit, commodi ullam molestias nisi praesentium optio accusamus voluptatum atque!",
             "beneficios": "",
             "img_url": "/assets/img/mudras/Adhi_mudra.png"
         },{
             "id": 81,
-            "Nombre": "Govinda",
+            "nombre": "Govinda",
             "Tipo": "Hasta Mudra",
-            "Descripcion":"",
+            "desc":"Esta es la descripción de Govinda Mudra: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis animi sapiente inventore aspernatur quae autem laborum nemo, aut magni fugit, commodi ullam molestias nisi praesentium optio accusamus voluptatum atque!",
             "beneficios": "",
             "img_url": "/assets/img/mudras/Govinda_mudra.png"
         },{
             "id": 82,
-            "Nombre": "Padma",
+            "nombre": "Padma",
             "Tipo": "Hasta Mudra",
-            "Descripcion":"",
+            "desc":"Esta es la descripción de Padma Mudra: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis animi sapiente inventore aspernatur quae autem laborum nemo, aut magni fugit, commodi ullam molestias nisi praesentium optio accusamus voluptatum atque!",
             "beneficios": "",
             "img_url": "/assets/img/mudras/Padma.png"
         },{
             "id": 83,
-            "Nombre": "Vishnu",
+            "nombre": "Vishnu",
             "Tipo": "Hasta Mudra",
-            "Descripcion":"",
+            "desc":"Esta es la descripción de Vishnu Mudra: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis animi sapiente inventore aspernatur quae autem laborum nemo, aut magni fugit, commodi ullam molestias nisi praesentium optio accusamus voluptatum atque!",
             "beneficios": "",
             "img_url": "/assets/img/mudras/Nasagra_Vishnu_mudra.png"
         },{
             "id": 84,
-            "Nombre": "Nasagra",
+            "nombre": "Nasagra",
             "Tipo": "Hasta Mudra",
-            "Descripcion":"",
+            "desc":"Esta es la descripción de Nasagra Mudra: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis animi sapiente inventore aspernatur quae autem laborum nemo, aut magni fugit, commodi ullam molestias nisi praesentium optio accusamus voluptatum atque!",
             "beneficios": "",
             "img_url": "/assets/img/mudras/Nasagra_Vishnu_mudra.png"
         },{
             "id": 85,
-            "Nombre": "Dhyani",
+            "nombre": "Dhyani",
             "Tipo": "Hasta Mudra",
-            "Descripcion":"",
+            "desc":"Esta es la descripción de Dhyani Mudra: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis animi sapiente inventore aspernatur quae autem laborum nemo, aut magni fugit, commodi ullam molestias nisi praesentium optio accusamus voluptatum atque!",
             "beneficios": "",
             "img_url": "/assets/img/mudras/dhyani_mudra.png"
         },{
             "id": 86,
-            "Nombre": "Prithivi",
+            "nombre": "Prithivi",
             "Tipo": "Hasta Mudra",
-            "Descripcion":"",
+            "desc":"Esta es la descripción de Prithivi Mudra: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis animi sapiente inventore aspernatur quae autem laborum nemo, aut magni fugit, commodi ullam molestias nisi praesentium optio accusamus voluptatum atque!",
             "beneficios": "",
             "img_url": "/assets/img/mudras/Prithivi_mudra.png"
         },{
             "id": 87,
-            "Nombre": "Apas",
+            "nombre": "Apas",
             "Tipo": "Hasta Mudra",
-            "Descripcion":"",
+            "desc":"Esta es la descripción de Apas Mudra: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis animi sapiente inventore aspernatur quae autem laborum nemo, aut magni fugit, commodi ullam molestias nisi praesentium optio accusamus voluptatum atque!",
             "beneficios": "",
             "img_url": "/assets/img/mudras/Apas_mudra.png"
         },{
             "id": 88,
-            "Nombre": "Agni",
+            "nombre": "Agni",
             "Tipo": "Hasta Mudra",
-            "Descripcion":"",
+            "desc":"Esta es la descripción de Agni Mudra: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis animi sapiente inventore aspernatur quae autem laborum nemo, aut magni fugit, commodi ullam molestias nisi praesentium optio accusamus voluptatum atque!",
             "beneficios": "",
             "img_url": "/assets/img/mudras/Agni_mudra.png"
         },{
             "id": 89,
-            "Nombre": "Vayu",
+            "nombre": "Vayu",
             "Tipo": "Hasta Mudra",
-            "Descripcion":"",
+            "desc":"Esta es la descripción de Vayu Mudra: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis animi sapiente inventore aspernatur quae autem laborum nemo, aut magni fugit, commodi ullam molestias nisi praesentium optio accusamus voluptatum atque!",
             "beneficios": "",
             "img_url": "/assets/img/mudras/Vayu_mudra.png"
         },{
             "id": 90,
-            "Nombre": "Akasha",
+            "nombre": "Akasha",
             "Tipo": "Hasta Mudra",
-            "Descripcion":"",
+            "desc":"Esta es la descripción de Akasha Mudra: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis animi sapiente inventore aspernatur quae autem laborum nemo, aut magni fugit, commodi ullam molestias nisi praesentium optio accusamus voluptatum atque!",
             "beneficios": "",
             "img_url": "/assets/img/mudras/Akasha_mudra.png"
         }

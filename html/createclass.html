@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    <!-- Glider Css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.8/glider.min.css">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <!-- Font Karla -->
@@ -15,61 +18,102 @@
     <title>Creá tu clase</title>
 </head>
 <body>
-    <!-- Menu of Elements -->
-    <div class="dropdown">
-        <input type="text" class="textbox" placeholder="Elementos para Clase" readonly>
-        <div class="option">
-            <div onclick="show('Posturas')" id="btn_posturas">Posturas</div>
-            <div onclick="show('Respiraciones')" id="btn_respiraciones">Respiraciones</div>
-            <div onclick="show('Mudras')" id="btn_mudras">Mudras</div>
+    
+    <div class="contenedor_create_class">
+
+        <!-- Menu of Elements -->
+        <div class="menu_dropdowns">
+            <div class="dropdown">
+                <input type="text" class="textbox" placeholder="Elementos para Clase" readonly>
+                <div class="option">
+                    <div onclick="show('Posturas')" id="btn_posturas">Posturas</div>
+                    <div onclick="show('Respiraciones')" id="btn_respiraciones">Respiraciones</div>
+                    <div onclick="show('Mudras')" id="btn_mudras">Mudras</div>
+                </div>
+            </div>
+        </div>
+    
+        <!-- CARD -->
+        <div class="body_cards">
+            <div class="container_card">
+                <div class="card">
+                    <div class="img_card">
+                    </div>
+                    <div class="info_description">
+                    </div>
+                </div>
+                <div class="body_box">
+                    <div class="box">
+                        <h2>Elementos de Clase Personalizada</h2>
+                        <ul class="elements">
+                        </ul>
+                    </div>
+                    <button type="button" class="button_save">
+                        <span class="button_text">Guardar Clase</span>
+                        <span class="button_icon"><ion-icon name="cloud-upload-outline"></ion-icon></span>
+                    </button>
+                    <button type="button" class="button_error">
+                        <span class="button_text">Eliminar Clase</span>
+                        <span class="button_icon"><ion-icon name="trash-outline"></ion-icon></span>
+                    </button>
+                </div>
+                <div class="button_clear_container">
+                    <button type="button" class="button_clear active">
+                        <span class="button_icon_mini"><ion-icon name="close-circle-outline"></ion-icon></span>
+                    </button>
+                </div>
+            </div>
         </div>
     </div>
+</div>
+<div class="carousel">
+    <h3>Clases Personalizadas</h3>
+    <div class="carousel__contenedor">
+        <button aria-label="Anterior" class="carousel__anterior">
+            <i class="fas fa-chevron-left"></i>
+        </button>
 
-    <!-- CARD -->
-    <div class="body_cards">
-        <div class="container_card">
-            <div class="card">
-                <div class="img_card">
-                </div>
-                <div class="info_description">
-                </div>
+        <div class="carousel__lista">
+            <!-- <div class="carousel__elemento">
+                <img src="https://www.dropbox.com/s/h0ehjaz1wa9xfu1/lowlunge.svg?raw=1" alt="">
+                <p>Anjaneyasana</p>
             </div>
-            <div class="body_box">
-                <div class="box">
-                    <h2>Elementos de Clase Personalizada</h2>
-                    <ul class="elements">
-                    </ul>
-                </div>
-                <button type="button" class="button_save">
-                    <span class="button_text">Guardar Clase</span>
-                    <span class="button_icon"><ion-icon name="cloud-upload-outline"></ion-icon></span>
-                </button>
-                <button type="button" class="button_error">
-                    <span class="button_text">Eliminar Clase</span>
-                    <span class="button_icon"><ion-icon name="trash-outline"></ion-icon></span>
-                </button>
+            <div class="carousel__elemento">
+                <img src="https://www.dropbox.com/s/ji0otecqx42by00/seatedforwardfold.svg?raw=1" alt="">
+                <p>Paschimottanasana</p>
             </div>
-            <button type="button" class="button_clear">
-                <span class="button_icon"><ion-icon name="close-circle-outline"></ion-icon></span>
-            </button>
+            <div class="carousel__elemento">
+                <img src="https://www.dropbox.com/s/j7p2600bmf840e0/pyramid.svg?raw=1" alt="">
+                <p>Parsvottanasana</p>
+            </div>
+            <div class="carousel__elemento">
+                <img src="https://www.dropbox.com/s/mn2ktlihp12mtfa/tree.svg?raw=1" alt="">
+                <p>Vrksasana</p>
+            </div>
+            <div class="carousel__elemento">
+                <img src="https://www.dropbox.com/s/l41pfqjwmjoy5os/triangle.svg?raw=1" alt="">
+                <p>Trikonasana</p>
+            </div>
+            <div class="carousel__elemento">
+                <img src="https://www.dropbox.com/s/d1dbdvo4l7xry4w/downdogflip.svg?raw=1" alt="">
+                <p>Camatkarasana</p>
+            </div> -->
         </div>
+
+        <button aria-label="Siguiente" class="carousel__siguiente">
+            <i class="fas fa-chevron-right"></i>
+        </button>
     </div>
 
-    <!-- <div class="storage_class">
-        <div class="container_class">
-            <div class="user_class">
-                
-            </div>
-            <button type="button" class="button_error">
-                <span class="button_text">Eliminar Clase</span>
-                <span class="button_icon"><ion-icon name="close-circle-outline"></ion-icon></span>
-            </button>
-        </div>
-    </div> -->
-
+    <div role="tablist" class="carousel__indicadores"></div>
+</div>
 
     <!-- Scroll Reveal -->
-    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- <script src="https://unpkg.com/scrollreveal"></script> -->
+    <!-- Sweet Alert -->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- Glider.js -->
+    <script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.8/glider.min.js"></script>
     <!-- Ion Icons -->
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
@@ -77,10 +121,7 @@
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
     <!-- Main Js -->
-    <!-- <script src="../Js/createclass.js"></script> -->
-    <script src="../Js/test.js"></script>
+    <script src="../Js/createclass.js"></script>
     <script src="../Js/objects.js"></script>
-    <!-- Json DATABASE -->
-    <!-- <script src="../assets/json/database.json"></script> -->
 </body>
 </html>

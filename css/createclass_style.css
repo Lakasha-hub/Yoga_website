@@ -1,4 +1,7 @@
-.dropdown{
+.contenedor_create_class{
+    position: relative;
+}
+.menu_dropdowns{
     color: #ffffff;
     position: relative;
     margin-top: 70px;
@@ -6,7 +9,7 @@
     width: 300px;
     height: 50px;
 }
-.dropdown:before{
+.menu_dropdowns:before{
     content: '';
     position: absolute;
     right: 20px;
@@ -42,14 +45,15 @@
 }
 .dropdown .option{
     color: #000000;
-    position: absolute;
+    position: relative;
     top: 70px;
     width: 100%;
     background: #EFF3F5;
-    box-shadow: 0 30px 30px rgba(0, 0, 0, 05);
+    box-shadow: 0 30px 30px rgba(0, 0, 0, 0.7);
     border-radius: 10px;
     overflow: hidden;
     display: none;
+    margin-bottom: 15px;
 }
 .dropdown.active .option{
     display: block;
@@ -70,7 +74,7 @@
     margin: auto;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: right;
 }
 .card.active{
     display: block;
@@ -78,6 +82,7 @@
 
 .card{
     width: 300px;
+    right: 60px;
     position: relative;
     margin: 20px;
     transition: all 300ms;
@@ -141,9 +146,9 @@
 /* Class Element List */
 
 .body_box{
-    position: absolute;
-    right: 10px;
-    top: 120px;
+    position: relative;
+    right: 0;
+    top: 0;
 }
 .box{
     width: 450px;
@@ -160,6 +165,9 @@
 .box ul{
     position: relative;
     background: #EFF3F5;
+    max-height:400px;
+    overflow-x:hidden;
+    overflow-y:auto;
 }
 .box ul li{
     list-style: none;
@@ -198,8 +206,7 @@
 .dropdown2{
     color: #ffffff;
     position: absolute;
-    margin-top: 150px;
-    margin-left: 90px;
+    margin-top: 70px;
     width: 300px;
     height: 50px;
     left: 0px;
@@ -212,7 +219,9 @@
     background: #EFF3F5;
     box-shadow: 0 30px 30px rgba(0, 0, 0, 05);
     border-radius: 10px;
-    overflow: hidden;
+    max-height:500px;
+    overflow-x:hidden;
+    overflow-y:auto;
     display: none;
 }
 .dropdown2.active .option2{
@@ -274,19 +283,23 @@
 .button_save:hover{
     background: #E18905;
 }
+
+.button_clear_container{
+    margin: 10px;
+}
 .button_clear{
     background: #C30000;
-    height: 50px;
+    height: 30px;
     border: none;
     outline: none;
     border-radius: 5px;
     overflow: hidden;
-    font-weight: 500;
     cursor: pointer;
     padding: 0;
     display: inline-flex;
     justify-content: center;
     display: none;
+    width: 30px;
 }
 .button_clear.active{
     display: block;
@@ -294,4 +307,88 @@
 .button_clear:hover{
     background: #960000;
 }
+.button_icon_mini{
+    display: inline-flex;
+    align-items: center;
+    font-size: 1.5em;
+    color: #ffffff;
+    height: 100%;
+}
 
+
+/* --- --- CAROUSEL --- --- */
+.carousel{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 400px;
+    background: #ff9a04;
+}
+.carousel h3{
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.carousel__contenedor {
+	position: relative;
+}
+
+.carousel__anterior,
+.carousel__siguiente {
+	position: absolute;
+	display: block;
+	width: 50px;
+	height: 50px;
+	border: none;
+	top: calc(50% - 35px);
+	cursor: pointer;
+	line-height: 30px;
+	text-align: center;
+	background: none;
+	color: #ffffff;
+	opacity: 20%;
+    background: #000000;
+}
+
+.carousel__anterior:hover,
+.carousel__siguiente:hover {
+	opacity: 100%;
+}
+
+.carousel__anterior {
+	left: -30px;
+}
+
+.carousel__siguiente {
+	right: -30px;
+}
+
+.carousel__lista {
+	overflow: hidden;
+}
+
+.carousel__elemento {
+	text-align: center;
+}
+
+.carousel__indicadores .glider-dot {
+	display: block;
+	width: 30px;
+	height: 4px;
+	background: #fff;
+	opacity: .2;
+	border-radius: 0;
+}
+
+.carousel__indicadores .glider-dot:hover {
+	opacity: .5;
+}
+
+.carousel__indicadores .glider-dot.active {
+	opacity: 1;
+}
+
+@media screen and (max-width: 800px) {
+	body {
+		padding: 40px 0;
+	}
+}
