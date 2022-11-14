@@ -331,6 +331,9 @@
 .carousel__contenedor {
 	position: relative;
 }
+.carousel__elemento img{
+    cursor: pointer;
+}
 
 .carousel__anterior,
 .carousel__siguiente {

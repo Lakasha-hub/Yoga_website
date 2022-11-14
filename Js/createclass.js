@@ -82,19 +82,42 @@ function LoadEventListeners(){
                 }
                 //Si no:
                 else{
-                    //Ejecuto la función para guardar es nueva clase
+                    //Ejecuto la función para guardar la nueva clase
                     SaveNewClass(class_elements, value);
                 }}
             })
-        }else{
+        }
+        //Si no hay por lo menos una postura:
+        else{
+            //Le aviso al usuario
             Toastify({
-                text: "La clase debe contener almenos una postura",
+                text: "La clase debe contener por lo menos una postura",
                 className: "info",
                 style: {
                 background: "linear-gradient(to right, #000000, #ff0000)",
                 }
             }).showToast();
         }
+    })
+
+    //Boton para borrar clase del Local Storage o del DOM
+    document.querySelector('.button_error').addEventListener('click', () => {
+        Swal.fire({
+            title: '¿Estas seguro de eliminar todos los elementos de la clase?',
+            showDenyButton: true,
+            background: '#EFF3F5',
+            confirmButtonColor: '#ff9a04',
+            denyButtonColor: '#000000',
+            confirmButtonText: 'Si',
+            denyButtonText: `No, cancelar`,
+            background: '#EFF3F5',
+            width: 500,
+          }).then((result) => {
+            //Si el resultado es 'Si' (Eliminar todos los elementos):
+            if (result.isConfirmed) {
+                deleteAllElementsDOM();
+            }
+        })  
     })
 }
 
@@ -344,12 +367,13 @@ function SaveNewClass(arrayOfElementsClass, nameOfClass)
                     }
                   })
             }
-          })
+        })
     }
 }
 
 //Función que crea el carrusel con las clases personalizadas
-function createCarousel(){
+function createCarousel()
+{
     //Selecciono el cuerpo del carrusel
     new Glider(document.querySelector('.carousel__lista'), {
         //Version Movil
@@ -427,12 +451,14 @@ function displayClassInCarousel()
         let img_class = class_achieved.find(element => element.id <= 48).img_url
         //Agrego la imagen y la key en la etiqueta que representa una clase en el carrusel
         carousel_elemento.innerHTML = `<img src="${img_class}" alt="img_class">
-        <p>${key}<p>`;
+        <p class = 'key' >${key}<p>`;
         //Agrego el elemento en la lista de elementos del carrusel
         carousel__lista.appendChild(carousel_elemento);
     }
     //Ejecuto la función de crear carrusel para actualizarlo con la nueva información
     createCarousel()
+    //Y le agrego el listener que me da la clave de la clase
+    searchKey()
 }
 
 //Función que verífica que haya almenos 1 postura en la clase personalizada a guardar
@@ -440,12 +466,99 @@ function verifySaveClass()
 {
     //Consulta si existe un elemento de tipo postura en la lista con los elementos de la clase
     let exists_posture = document.querySelector('.element_of_Posturas') || null;
-    //Si no existe devuelve true y si no false
+    //Si no existe devuelve false y si no true
     let ready_to_save = (exists_posture == null) ? false : true
     return ready_to_save
 }
 
+//Función que elimina todos los elementos de la lista del DOM (Elementos de Clase Persdonalizada) y del Array (Class_elements)
+function deleteAllElementsDOM()
+{
+    //Paso a una array todos los elementos de la lista del DOM
+    let list_elements_DOM = Array.from(document.getElementsByName('list'));
+    //Y por cada elemento:
+    list_elements_DOM.forEach(element => {
+        //Elimino el ultimo del DOM y de la array
+        deleteLastElement()
+    });
+}
+
+//Función que muestra en la lista personalizada los elementos de una clase del Local Storage 
+function displayClassInDOMList(keyOfClass)
+{
+    //Obtengo la Clase del storage a traves de su clave
+    let class_achieved = JSON.parse(localStorage.getItem(keyOfClass));
+    console.log(class_achieved)
+    //Si en el array de elementos de clase ya se encuentran elementos:
+    if(class_elements.length > 0){
+        //Le aviso al usuario que esos datos no guardados se eliminarán
+        Swal.fire({
+            title: 'Hay elementos que no se han guardado, ¿deseas cargar igualmente la clase?',
+            text: 'Los elementos no guardados se eliminarán',
+            showDenyButton: true,
+            background: '#EFF3F5',
+            confirmButtonColor: '#ff9a04',
+            denyButtonColor: '#000000',
+            confirmButtonText: 'Si',
+            denyButtonText: `No, cancelar`,
+            background: '#EFF3F5',
+            width: 500,
+          }).then((result) => {
+            //Si el resultado es 'Si' (Eliminar todos los elementos):
+            if (result.isConfirmed) {
+                deleteAllElementsDOM();
+                //Y Por cada elemento de clase:
+                class_achieved.forEach(element => {
+                    //Lo guardo en la class_list
+                    class_elements.push(element)
+                    //Calculo mediante el id su tipo de base de datos (Posturas || Respiraciones || Mudras)
+                    //Ejecuto displayElementsClass para mostrarlo en la lista del DOM (Elementos de clase personalizada)
+                    if(element.id <= 48){
+                        displayElementsClass('Posturas', element.nombre)
+                    }else if(48 <= element.id <= 73){
+                        displayElementsClass('Respiraciones', element.nombre)
+                    }else{
+                        displayElementsClass('Mudras', element.nombre)
+                    }
+                    
+                })
+            }
+        })
+    }else{
+        //Por cada elemento de clase:
+        class_achieved.forEach(element => {
+            //Lo guardo en la class_list
+            class_elements.push(element)
+            //Calculo mediante el id su tipo de base de datos (Posturas || Respiraciones || Mudras)
+            //Ejecuto displayElementsClass para mostrarlo en la lista del DOM (Elementos de clase personalizada)
+            if(element.id <= 48){
+                displayElementsClass('Posturas', element.nombre)
+            }else if(48 <= element.id <= 73){
+                displayElementsClass('Respiraciones', element.nombre)
+            }else{
+                displayElementsClass('Mudras', element.nombre)
+            }
+            
+        })
+    }
+
+    
+}
+//Funcion que busca la clave de las clases del DOM y les agrega un listener que muestra los elementos que componen la clase
+function searchKey(){
+    //Convierto en una array a las clases que aparecen en el carrusel 
+    let listOfClasses = Array.from(document.getElementsByClassName('carousel__elemento'));
+    //Y por cada clase:
+    listOfClasses.forEach(element => {
+        //Le agrego un listener
+        element.addEventListener('click', () => {
+            //obtengo la clave
+            let key = element.querySelector('.key')
+            //Y muestro la clase en (elementos de clase personalizada)
+            displayClassInDOMList(key.innerHTML)
+        })   
+    });
+}
 
 displayClassInCarousel()
 LoadEventListeners()
-
