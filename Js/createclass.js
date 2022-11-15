@@ -14,16 +14,8 @@ fetch("/assets/json/database.json")
     database = data;
 })
 
-
 //Funcion que carga todos los events listener
 function LoadEventListeners(){
-
-    //Listener que carga el carrusel cuando la pagina se lanza
-    window.addEventListener('load', () => {
-        //Creo el carrusel con los datos del Local Storage
-        createCarousel()
-    });
-
     //Selecciono el menu selector que despliega las opciones:(Posturas, Respiraciones, Mudras) 
     document.querySelector('.dropdown').addEventListener('click', () =>{
         //Le agrego active a su clase para mostrar o no el menu al usuario
@@ -284,10 +276,25 @@ function deleteElement_inArray(arrayOfDatabase, name_object)
 //Función para elminar el ultimo elemento agregado a la clase personalizada del DOM y del class_elements
 function deleteLastElement()
 {
-    //Obtengo el ultimo elemento añadido y lo elimino de class_elements
-    let last_element = class_elements.pop();
-    //Luego lo elimino del DOM
-    document.getElementById(last_element['nombre']).remove()
+    if(class_elements.length == 0){
+        //Envío un mensaje de error
+        Toastify({
+            text: "No hay elementos que deshacer",
+            className: "info",
+            style: {
+            background: "linear-gradient(to right, #000000, #ff0000)",
+            }
+        }).showToast();
+    }else{
+        //Obtengo el ultimo elemento añadido y lo elimino de class_elements
+        let last_element = class_elements.pop();
+        //Consulto si el elemento existe en el DOM
+        let last_elementInDOM = document.getElementById(last_element['nombre']);
+        //Lo elimino del DOM
+        last_elementInDOM.remove()
+    }
+    
+    
 }
 
 //Función que guarda la clase personalizada en el Local Storage y se asegura de que no exista una con el mismo nombre de clase
@@ -454,11 +461,30 @@ function displayClassInCarousel()
         <p class = 'key' >${key}<p>`;
         //Agrego el elemento en la lista de elementos del carrusel
         carousel__lista.appendChild(carousel_elemento);
+
+        //Creo un boton eliminar clase que elimina la clase del storage
+        let button_delete = document.createElement('div');
+        //Le agrego la clase de button_delete
+        button_delete.setAttribute('class', 'button_delete');
+        //Le agrego un icono y una clase de icono
+        button_delete.innerHTML = `<span class="button_icon_mini"><ion-icon name="trash"></ion-icon></span>`;
+        //Lo inserto en el elemento del carrusel
+        carousel_elemento.appendChild(button_delete)
+
+        //Creo un boton que carga la clase en la lista del DOM
+        let button_charge = document.createElement('div');
+        //Le agrego la clase de button_charge
+        button_charge.setAttribute('class', 'button_charge');
+        //Le agrego un icono y una clase de icono
+        button_charge.innerHTML = `<span class="button_icon_mini"><ion-icon name="download"></ion-icon></span>`;
+        //Lo inserto en el elemento del carrusel
+        carousel_elemento.appendChild(button_charge)
+
     }
     //Ejecuto la función de crear carrusel para actualizarlo con la nueva información
     createCarousel()
     //Y le agrego el listener que me da la clave de la clase
-    searchKey()
+    searchKeyAndCreateListeners()
 }
 
 //Función que verífica que haya almenos 1 postura en la clase personalizada a guardar
@@ -545,20 +571,55 @@ function displayClassInDOMList(keyOfClass)
     
 }
 //Funcion que busca la clave de las clases del DOM y les agrega un listener que muestra los elementos que componen la clase
-function searchKey(){
+function searchKeyAndCreateListeners(){
     //Convierto en una array a las clases que aparecen en el carrusel 
     let listOfClasses = Array.from(document.getElementsByClassName('carousel__elemento'));
     //Y por cada clase:
     listOfClasses.forEach(element => {
+        //Buscar boton que carga la clase en una lista
+        let button_charge = element.querySelector('.button_charge');
         //Le agrego un listener
-        element.addEventListener('click', () => {
+        button_charge.addEventListener('click', () => {
             //obtengo la clave
             let key = element.querySelector('.key')
             //Y muestro la clase en (elementos de clase personalizada)
             displayClassInDOMList(key.innerHTML)
-        })   
+        })
+        //Buscar boton que elimina la clase del Local Storage y del carousel
+        let button_delete = element.querySelector('.button_delete')
+        //Le agrego un listener
+        button_delete.addEventListener('click', () => {
+            //Le aviso al usuario que esta a punto de eliminar una clase
+            Swal.fire({
+                title: '¿Estas seguro que deseas eliminar la clase?',
+                text: 'La clase se eliminará permanentemente',
+                showDenyButton: true,
+                background: '#EFF3F5',
+                confirmButtonColor: '#ff9a04',
+                denyButtonColor: '#000000',
+                confirmButtonText: 'Si',
+                denyButtonText: `No, cancelar`,
+                background: '#EFF3F5',
+                width: 500,
+            }).then((result) => {
+                //Si el resultado es 'Si' (Eliminar la clase):
+                if (result.isConfirmed) {
+                    //obtengo la clave
+                    let key = element.querySelector('.key');
+                    //Elimino la clase del Local Storage
+                    localStorage.removeItem(key.innerHTML);
+                    //Actualizo el carrusel
+                    displayClassInCarousel(key.innerHTML);     
+                }
+            });
+        });
     });
 }
 
-displayClassInCarousel()
-LoadEventListeners()
+//Listener que carga el carrusel cuando la pagina se lanza
+window.addEventListener('load', () => {
+    //Creo el carrusel con los datos del Local Storage
+    displayClassInCarousel()
+    //Cargo los listener de la pagina
+    LoadEventListeners()
+});

@@ -331,9 +331,6 @@
 .carousel__contenedor {
 	position: relative;
 }
-.carousel__elemento img{
-    cursor: pointer;
-}
 
 .carousel__anterior,
 .carousel__siguiente {
@@ -370,7 +367,40 @@
 }
 
 .carousel__elemento {
+    position: relative;
 	text-align: center;
+}
+.carousel__elemento .button_delete .button_icon_mini{
+	color: #000000;
+    position: absolute;
+    display: none;
+    cursor: pointer;
+    bottom: 90%;
+    left: 0%;
+    top: 0%;
+    right: 90%;
+}
+.carousel__elemento .button_charge .button_icon_mini{
+	color: #000000;
+    position: absolute;
+    display: none;
+    cursor: pointer;
+    bottom: 90%;
+    left: 0%;
+    top: 0%;
+    right: 90%;
+}
+.carousel__elemento .button_delete .button_icon_mini{
+    bottom: 90%;
+    left: 0%;
+    top: 0%;
+    right: 75%;
+}
+.carousel__elemento:hover .button_charge .button_icon_mini{
+    display: block;
+}
+.carousel__elemento:hover .button_delete .button_icon_mini{
+    display: block;
 }
 
 .carousel__indicadores .glider-dot {
